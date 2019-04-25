@@ -4,6 +4,12 @@ A new Flutter Page Transition package.
 
 [![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
+(http://github.com/handoing/flutter_page_transition/raw/master/screenshots/fadeIn.gif)
+(http://github.com/handoing/flutter_page_transition/raw/master/screenshots/slideInLeft.gif)
+(http://github.com/handoing/flutter_page_transition/raw/master/screenshots/slideLeft.gif)
+(http://github.com/handoing/flutter_page_transition/raw/master/screenshots/slideParallaxLeft.gif)
+(http://github.com/handoing/flutter_page_transition/raw/master/screenshots/slideZoomLeft.gif)
+
 ## Getting Started
 
 添加git仓库依赖:
