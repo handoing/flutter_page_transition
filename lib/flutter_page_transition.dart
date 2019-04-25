@@ -6,6 +6,8 @@ enum PageTransitionType {
 
   custom, // 自定义过渡效果
 
+  fadeIn, // 渐显
+
   slideInLeft, // 从左向右
   slideInRight, // 从右向左
   slideInUp, // 从下向上
@@ -43,12 +45,17 @@ class TransitionEffect {
     _customEffect = handle;
   }
 
+  static createFadeIn() {
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new FadeTransition(opacity: animation, child: child);
+  }
+
   static createSlideIn(Tween tween) {
     return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new SlideTransition(
       position: tween.animate(CurvedAnimation(parent: animation, curve: curve)),
       child: child,
     );
   }
+
   static createSlide({Tween animationTween, Tween secondaryAnimationTween}) {
     return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new SlideTransition(
       position: animationTween.animate(animation),
@@ -58,12 +65,26 @@ class TransitionEffect {
       ),
     );
   }
+
   static createZoomSlide({Tween animationTween, Tween secondaryAnimationTween}) {
     return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new SlideTransition(
       position: animationTween.animate(animation),
       child: new ScaleTransition(
         scale: secondaryAnimationTween.animate(secondaryAnimation),
         child: child,
+      ),
+    );
+  }
+
+  static createBufferSlide({Tween animationTween}) {
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new SlideTransition(
+      position: animationTween.animate(CurvedAnimation(parent: animation, curve: Curves.linear)),
+      child: Align(
+        child: SizeTransition(
+          axis: Axis.horizontal,
+          sizeFactor: animation,
+          child: child,
+        ),
       ),
     );
   }
@@ -129,6 +150,8 @@ Tween t13 = new Tween<double>(
 final Map effectMap = <PageTransitionType, void>{
   PageTransitionType.custom: transitionEffect.customEffect,
 
+  PageTransitionType.fadeIn: TransitionEffect.createFadeIn(),
+
   PageTransitionType.slideInLeft: TransitionEffect.createSlideIn(t1),
   PageTransitionType.slideInRight: TransitionEffect.createSlideIn(t2),
   PageTransitionType.slideInUp: TransitionEffect.createSlideIn(t3),
@@ -176,9 +199,6 @@ class PageTransition extends PageRouteBuilder {
           Widget child
           ) {
 
-        if (effectMap[type] == null) {
-          return FadeTransition(opacity: animation, child: child);
-        }
         return effectMap[type](curve, animation, secondaryAnimation, child);
       });
 }
