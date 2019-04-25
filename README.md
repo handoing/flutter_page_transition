@@ -45,6 +45,14 @@ onGenerateRoute: (RouteSettings routeSettings){
       }
     );
 }
+
+Navigator.of(context).pushNamed('/first');
+
+or
+
+Navigator.of(context).push(PageTransition(type: PageTransitionType.slideInLeft, child: FirstPage()));
+
+
 ```
 
 使用自定义效果
