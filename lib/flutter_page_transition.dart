@@ -8,6 +8,9 @@ enum PageTransitionType {
 
   fadeIn, // 渐显
 
+  transferRight,  // 从右向左
+  transferUp, // 从下向上
+
   slideInLeft, // 从左向右
   slideInRight, // 从右向左
   slideInUp, // 从下向上
@@ -47,6 +50,34 @@ class TransitionEffect {
 
   static createFadeIn() {
     return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new FadeTransition(opacity: animation, child: child);
+  }
+
+  static createTransfer({Tween animationTween, Tween secondaryAnimationTween, Tween animationScaleTween, Tween secondaryAnimationScaleTween}) {
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
+      // 进入动效
+      Widget secondaryPage = new SlideTransition(
+        position: secondaryAnimationTween.animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.3, 0.7, curve: curve))),
+        child: new ScaleTransition(
+          scale: secondaryAnimationScaleTween.animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.0, 0.3, curve: curve))),
+          child: new ScaleTransition(
+            scale: secondaryAnimationScaleTween.animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.7, 1.0, curve: curve))),
+            child: child,
+          ),
+        ),
+      );
+
+      // 离开动效
+      return new SlideTransition(
+        position: animationTween.animate(CurvedAnimation(parent: animation, curve: Interval(0.3, 0.7, curve: curve))),
+        child: new ScaleTransition(
+          scale: animationScaleTween.animate(CurvedAnimation(parent: animation, curve: Interval(0.0, 0.3, curve: curve))),
+          child: new ScaleTransition(
+            scale: animationScaleTween.animate(CurvedAnimation(parent: animation, curve: Interval(0.7, 1.0, curve: curve))),
+            child: secondaryPage,
+          ),
+        ),
+      );
+    };
   }
 
   static createSlideIn(Tween tween) {
@@ -147,10 +178,18 @@ Tween t13 = new Tween<double>(
   end: 0.9,
 );
 
+Tween t14 = new Tween<double>(
+  begin: 0.9,
+  end: 1.0,
+);
+
 final Map effectMap = <PageTransitionType, void>{
   PageTransitionType.custom: transitionEffect.customEffect,
 
   PageTransitionType.fadeIn: TransitionEffect.createFadeIn(),
+
+  PageTransitionType.transferRight: TransitionEffect.createTransfer(animationTween: t1, secondaryAnimationTween: t5, animationScaleTween: t14, secondaryAnimationScaleTween: t13),
+  PageTransitionType.transferUp: TransitionEffect.createTransfer(animationTween: t3, secondaryAnimationTween: t7, animationScaleTween: t14, secondaryAnimationScaleTween: t13),
 
   PageTransitionType.slideInLeft: TransitionEffect.createSlideIn(t1),
   PageTransitionType.slideInRight: TransitionEffect.createSlideIn(t2),
