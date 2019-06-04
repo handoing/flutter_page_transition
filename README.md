@@ -10,6 +10,7 @@ A new Flutter Page Transition package.
 ![](./screenshots/slideParallaxLeft.gif)
 ![](./screenshots/slideZoomLeft.gif)
 ![](./screenshots/transferRight.gif)
+![](./screenshots/rippleRightUp.gif)
 
 ## Getting Started
 
