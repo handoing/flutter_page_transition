@@ -27,4 +27,7 @@ enum PageTransitionType {
   slideZoomUp, // 从下向上
   slideZoomDown, // 从上向下
 
+  rippleRightUp, // 从右下角开始
+  rippleLeftUp, // 从左下角开始
+
 }

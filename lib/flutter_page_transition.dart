@@ -36,6 +36,9 @@ final Map effectMap = <PageTransitionType, void>{
   PageTransitionType.slideZoomRight: TransitionEffect.createZoomSlide(animationTween: t2, secondaryAnimationTween: t13),
   PageTransitionType.slideZoomUp: TransitionEffect.createZoomSlide(animationTween: t3, secondaryAnimationTween: t13),
   PageTransitionType.slideZoomDown: TransitionEffect.createZoomSlide(animationTween: t4, secondaryAnimationTween: t13),
+
+  PageTransitionType.rippleRightUp: TransitionEffect.createRipple(origin: 'Right'),
+  PageTransitionType.rippleLeftUp: TransitionEffect.createRipple(origin: 'Left'),
 };
 
 class PageTransition extends PageRouteBuilder {
