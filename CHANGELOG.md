@@ -11,7 +11,11 @@
 
 * add transferRight and transferUp.
 
-## [0.0.4] - Add Transfer Type (2019.07.18)
+## [0.0.4] - Update Describe (2019.07.18)
 
 * remove editor files.
 * update README.md.
+
+## [0.0.5] - Add Example (2019.07.18)
+
+* add example.

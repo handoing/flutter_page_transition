@@ -1,8 +1,10 @@
 # flutter_page_transition
 
-A new Flutter Page Transition package.
+A rich flutter page transition package.
 
-[![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](https://github.com/handoing/flutter_page_transition)
+
+## Some Demos
 
 ![](./screenshots/fadeIn.gif)
 ![](./screenshots/slideInLeft.gif)
