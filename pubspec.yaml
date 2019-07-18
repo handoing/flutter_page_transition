@@ -1,8 +1,8 @@
 name: flutter_page_transition
 description: A new Flutter Page Transition package.
-version: 0.0.3
-author:
-homepage:
+version: 0.0.4
+author: handoing
+homepage: https://github.com/handoing/flutter_page_transition
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

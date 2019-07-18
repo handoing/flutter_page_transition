@@ -14,28 +14,54 @@ A new Flutter Page Transition package.
 
 ## Getting Started
 
-添加git仓库依赖:
+You can depend on this package stored in my repository:
 ```yaml
 flutter_page_transition:
   git:
     url: git://github.com/handoing/flutter_page_transition.git
 ```
 
+## Transition Type
+
+| Page Transition Type  | Direction |
+| :- | :-|
+| slideInLeft | ⬅️  |
+| slideInLeft | ➡️  |
+| slideInUp | ⬆️  |
+| slideInDown | ⬇️  |
+| slideLeft | ⬅️  |
+| slideRight | ➡️  |
+| slideUp | ⬆️  |
+| slideDown | ⬇️  |
+| slideParallaxLeft | ⬅️  |
+| slideParallaxRight | ➡️  |
+| slideParallaxUp | ⬆️  |
+| slideParallaxDown | ⬇️  |
+| slideZoomLeft | ⬅️  |
+| slideZoomRight | ➡️  |
+| slideZoomUp | ⬆️  |
+| slideZoomDown | ⬇️  |
+| rippleRightUp | ↖️ |
+| rippleLeftUp | ↗️  |
+| transferRight | ⬅️  |
+| transferUp | ⬆️  |
+| fadeIn | ❌  |
+| custom | ❌  |
+
 ## Example
 
-使用PageRouteBuilder
+Use PageRouteBuilder Widget
 ```dart
+initialRoute: 'Home',
 onGenerateRoute: (RouteSettings routeSettings){
     return new PageRouteBuilder<dynamic>(
       settings: routeSettings,
       pageBuilder: (BuildContext context, Animation<double> animation, Animation<double> secondaryAnimation) {
         switch (routeSettings.name){
-          case '/':
+          case 'Home':
             return HomePage();
-          case '/first':
-            return FirstPage();
-          case '/second':
-            return SecondPage();
+          case 'Other':
+            return OtherPage();
           default:
             return null;
         }
@@ -48,16 +74,15 @@ onGenerateRoute: (RouteSettings routeSettings){
     );
 }
 
-Navigator.of(context).pushNamed('/first');
-
-or
-
+// use Navigator
+Navigator.of(context).pushNamed('Other');
+// or
 Navigator.of(context).push(PageTransition(type: PageTransitionType.slideInLeft, child: FirstPage()));
 
 
 ```
 
-使用自定义效果
+Create custom methods:
 ```dart
 transitionEffect.createCustomEffect(
   handle: (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
@@ -71,7 +96,6 @@ transitionEffect.createCustomEffect(
   }
 );
 
-...
-
+// use custom
 effectMap[PageTransitionType.custom](Curves.linear, animation, secondaryAnimation, child);
 ```

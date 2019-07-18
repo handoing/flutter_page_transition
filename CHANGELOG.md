@@ -10,3 +10,8 @@
 ## [0.0.3] - Add Transfer Type (2019.04.26)
 
 * add transferRight and transferUp.
+
+## [0.0.4] - Add Transfer Type (2019.07.18)
+
+* remove editor files.
+* update README.md.

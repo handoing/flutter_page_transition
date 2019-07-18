@@ -11,5 +11,5 @@ ios/Runner/GeneratedPluginRegistrant.*
 
 example/
 .metadata
-.packages
 .idea/
+*.iml

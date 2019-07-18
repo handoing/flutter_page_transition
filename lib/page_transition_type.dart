@@ -1,33 +1,33 @@
 enum PageTransitionType {
 
-  custom, // 自定义过渡效果
+  custom,
 
-  fadeIn, // 渐显
+  fadeIn,
 
-  transferRight,  // 从右向左
-  transferUp, // 从下向上
+  transferRight,
+  transferUp,
 
-  slideInLeft, // 从左向右
-  slideInRight, // 从右向左
-  slideInUp, // 从下向上
-  slideInDown, // 从上向下
+  slideInLeft,
+  slideInRight,
+  slideInUp,
+  slideInDown,
 
-  slideLeft, // 从左向右
-  slideRight, // 从右向左
-  slideUp, // 从下向上
-  slideDown, // 从上向下
+  slideLeft,
+  slideRight,
+  slideUp,
+  slideDown,
 
-  slideParallaxLeft, // 从左向右
-  slideParallaxRight, // 从右向左
-  slideParallaxUp, // 从下向上
-  slideParallaxDown, // 从上向下
+  slideParallaxLeft,
+  slideParallaxRight,
+  slideParallaxUp,
+  slideParallaxDown,
 
-  slideZoomLeft, // 从左向右
-  slideZoomRight, // 从右向左
-  slideZoomUp, // 从下向上
-  slideZoomDown, // 从上向下
+  slideZoomLeft,
+  slideZoomRight,
+  slideZoomUp,
+  slideZoomDown,
 
-  rippleRightUp, // 从右下角开始
-  rippleLeftUp, // 从左下角开始
+  rippleRightUp,
+  rippleLeftUp,
 
 }
