@@ -121,7 +121,7 @@ flutter test
 
 run driver test
 ```bash
-ce example/
+cd example/
 flutter drive --target=test_driver/app.dart
 ```
 
