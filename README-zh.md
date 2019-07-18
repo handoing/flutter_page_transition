@@ -2,7 +2,7 @@
 
 一个丰富、方便、易用的路由切换效果库。
 
-[![Version](https://img.shields.io/badge/version-0.1.3-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.1.4-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
 [README in English](README.md)
 
