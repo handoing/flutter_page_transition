@@ -16,7 +16,12 @@ A rich flutter page transition package.
 
 ## Getting Started
 
-You can depend on this package stored in my repository:
+Add this to your package's pubspec.yaml file:
+```yaml
+dependencies:
+  flutter_page_transition: ^0.1.0
+```
+You can also depend on this package stored in my repository:
 ```yaml
 flutter_page_transition:
   git:

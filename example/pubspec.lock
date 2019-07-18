@@ -91,12 +91,10 @@ packages:
   flutter_page_transition:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: ecf6b1368fe883cd07424a9bcbde341d1ad58887
-      url: "git://github.com/handoing/flutter_page_transition.git"
-    source: git
-    version: "0.0.2"
+      name: flutter_page_transition
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
