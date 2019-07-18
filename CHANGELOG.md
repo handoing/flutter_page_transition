@@ -1,25 +1,29 @@
-## [0.0.1] - Init Package (2019.04.23)
+## [0.1.1] - Update README (2019.07.18)
 
-* init package.
+* update README.md.
 
-## [0.0.2] - Add Custom Type (2019.04.24)
+## [0.1.0] - Add Test (2019.07.18)
 
-* add custom type.
-* add demo screenshots.
+* add test.
 
-## [0.0.3] - Add Transfer Type (2019.04.26)
+## [0.0.5] - Add Example (2019.07.18)
 
-* add transferRight and transferUp.
+* add example.
 
 ## [0.0.4] - Update Describe (2019.07.18)
 
 * remove editor files.
 * update README.md.
 
-## [0.0.5] - Add Example (2019.07.18)
+## [0.0.3] - Add Transfer Type (2019.04.26)
 
-* add example.
+* add transferRight and transferUp.
 
-## [0.1.0] - Add Test (2019.07.18)
+## [0.0.2] - Add Custom Type (2019.04.24)
 
-* add test.
+* add custom type.
+* add demo screenshots.
+
+## [0.0.1] - Init Package (2019.04.23)
+
+* init package.
