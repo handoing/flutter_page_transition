@@ -1,10 +1,10 @@
 # flutter_page_transition
 
-A rich, convenient, easy-to-use flutter page transition package.
+一个丰富、方便、易用的路由切换效果库。
 
 [![Version](https://img.shields.io/badge/version-0.1.2-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
-[README in Chinese](README-zh.md)
+[README in English](README.md)
 
 ## Some Demos
 
@@ -18,22 +18,22 @@ A rich, convenient, easy-to-use flutter page transition package.
 
 ## Getting Started
 
-Add this to your package's pubspec.yaml file:
+pubspec.yaml中添加flutter_page_transition依赖：
 ```yaml
 dependencies:
   flutter_page_transition: ^0.1.0
 ```
-You can also depend on this package stored in my repository:
+或者添加github仓库的依赖：
 ```yaml
 flutter_page_transition:
   git:
     url: git://github.com/handoing/flutter_page_transition.git
 ```
-You should then run `flutter packages upgrade`.
+记得执行 `flutter packages upgrade` 更新依赖。
 
 ## Transition Type
 
-| Page Transition Type  | Direction |
+| 类型  | 方向 |
 | :- | :-|
 | slideInLeft | ⬅️  |
 | slideInLeft | ➡️  |
@@ -60,7 +60,7 @@ You should then run `flutter packages upgrade`.
 
 ## Example
 
-Use PageRouteBuilder Widget
+使用 PageRouteBuilder Widget，在transitionsBuilder方法里返回新的Widget
 ```dart
 initialRoute: 'Home',
 onGenerateRoute: (RouteSettings routeSettings){
@@ -92,7 +92,7 @@ Navigator.of(context).push(PageTransition(type: PageTransitionType.slideInLeft, 
 
 ```
 
-Create custom methods:
+创建自定义效果:
 ```dart
 transitionEffect.createCustomEffect(
   handle: (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
@@ -112,16 +112,16 @@ effectMap[PageTransitionType.custom](Curves.linear, animation, secondaryAnimatio
 
 ## Test
 
-run test
+执行 test
 ```bash
 flutter test
 ```
 
 ## Test Driver
 
-run driver test
+执行 driver test
 ```bash
-ce example/
+cd example/
 flutter drive --target=test_driver/app.dart
 ```
 
