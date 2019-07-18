@@ -2,7 +2,7 @@
 
 A rich flutter page transition package.
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
 ## Some Demos
 
