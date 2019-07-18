@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
         child: Text(_text),
       ),
       floatingActionButton: FloatingActionButton(
+        key: Key('homePush'),
         onPressed: _push,
         child: Icon(Icons.add),
       ),

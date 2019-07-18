@@ -2,7 +2,7 @@
 
 A rich flutter page transition package.
 
-[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
 ## Some Demos
 
@@ -22,6 +22,7 @@ flutter_page_transition:
   git:
     url: git://github.com/handoing/flutter_page_transition.git
 ```
+You should then run `flutter packages upgrade`.
 
 ## Transition Type
 
@@ -101,3 +102,22 @@ transitionEffect.createCustomEffect(
 // use custom
 effectMap[PageTransitionType.custom](Curves.linear, animation, secondaryAnimation, child);
 ```
+
+## Test
+
+run test
+```bash
+flutter test
+```
+
+## Test Driver
+
+run driver test
+```bash
+ce example/
+flutter drive --target=test_driver/app.dart
+```
+
+## License
+
+[MIT](LICENSE)

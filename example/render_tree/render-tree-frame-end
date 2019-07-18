@@ -1,0 +1,1579 @@
+RenderView#4026a
+ │ debug mode enabled - android
+ │ window size: Size(1080.0, 1794.0) (in physical pixels)
+ │ device pixel ratio: 2.6 (physical pixels per logical pixel)
+ │ configuration: Size(411.4, 683.4) at 2.625x (in logical pixels)
+ │
+ └─child: RenderSemanticsAnnotations#6efae
+   │ needs compositing
+   │ creator: Semantics ← Localizations ← MediaQuery ←
+   │   DefaultFocusTraversal ← WidgetsApp-[GlobalObjectKey
+   │   _MaterialAppState#9ea8a] ← ScrollConfiguration ← MaterialApp ←
+   │   MyApp ← [root]
+   │ parentData: <none>
+   │ constraints: BoxConstraints(w=411.4, h=683.4)
+   │ size: Size(411.4, 683.4)
+   │
+   └─child: RenderCustomPaint#4a16e
+     │ needs compositing
+     │ creator: CustomPaint ← Banner ← CheckedModeBanner ← Title ←
+     │   Directionality ← _LocalizationsScope-[GlobalKey#e27aa] ←
+     │   Semantics ← Localizations ← MediaQuery ← DefaultFocusTraversal
+     │   ← WidgetsApp-[GlobalObjectKey _MaterialAppState#9ea8a] ←
+     │   ScrollConfiguration ← ⋯
+     │ parentData: <none> (can use size)
+     │ constraints: BoxConstraints(w=411.4, h=683.4)
+     │ size: Size(411.4, 683.4)
+     │
+     └─child: RenderPointerListener#7f6e2
+       │ needs compositing
+       │ creator: Listener ← Navigator-[GlobalObjectKey<NavigatorState>
+       │   _WidgetsAppState#19cc9] ← IconTheme ← IconTheme ←
+       │   _InheritedCupertinoTheme ← CupertinoTheme ← _InheritedTheme ←
+       │   Theme ← AnimatedTheme ← Builder ← DefaultTextStyle ←
+       │   CustomPaint ← ⋯
+       │ parentData: <none> (can use size)
+       │ constraints: BoxConstraints(w=411.4, h=683.4)
+       │ size: Size(411.4, 683.4)
+       │ behavior: deferToChild
+       │ listeners: down, up, cancel
+       │
+       └─child: RenderAbsorbPointer#8a822
+         │ needs compositing
+         │ creator: AbsorbPointer ← Listener ←
+         │   Navigator-[GlobalObjectKey<NavigatorState>
+         │   _WidgetsAppState#19cc9] ← IconTheme ← IconTheme ←
+         │   _InheritedCupertinoTheme ← CupertinoTheme ← _InheritedTheme ←
+         │   Theme ← AnimatedTheme ← Builder ← DefaultTextStyle ← ⋯
+         │ parentData: <none> (can use size)
+         │ constraints: BoxConstraints(w=411.4, h=683.4)
+         │ size: Size(411.4, 683.4)
+         │ absorbing: false
+         │ ignoringSemantics: implicitly false
+         │
+         └─child: RenderSemanticsAnnotations#83745
+           │ needs compositing
+           │ creator: Semantics ← FocusScope ← AbsorbPointer ← Listener ←
+           │   Navigator-[GlobalObjectKey<NavigatorState>
+           │   _WidgetsAppState#19cc9] ← IconTheme ← IconTheme ←
+           │   _InheritedCupertinoTheme ← CupertinoTheme ← _InheritedTheme ←
+           │   Theme ← AnimatedTheme ← ⋯
+           │ parentData: <none> (can use size)
+           │ constraints: BoxConstraints(w=411.4, h=683.4)
+           │ size: Size(411.4, 683.4)
+           │
+           └─child: _RenderTheatre#4e604
+             │ needs compositing
+             │ creator: _Theatre ←
+             │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             │   Semantics ← FocusScope ← AbsorbPointer ← Listener ←
+             │   Navigator-[GlobalObjectKey<NavigatorState>
+             │   _WidgetsAppState#19cc9] ← IconTheme ← IconTheme ←
+             │   _InheritedCupertinoTheme ← CupertinoTheme ← ⋯
+             │ parentData: <none> (can use size)
+             │ constraints: BoxConstraints(w=411.4, h=683.4)
+             │ size: Size(411.4, 683.4)
+             │
+             ├─onstage: RenderStack#0f52f
+             ╎ │ needs compositing
+             ╎ │ creator: Stack ← _Theatre ←
+             ╎ │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             ╎ │   Semantics ← FocusScope ← AbsorbPointer ← Listener ←
+             ╎ │   Navigator-[GlobalObjectKey<NavigatorState>
+             ╎ │   _WidgetsAppState#19cc9] ← IconTheme ← IconTheme ←
+             ╎ │   _InheritedCupertinoTheme ← ⋯
+             ╎ │ parentData: not positioned; offset=Offset(0.0, 0.0) (can use
+             ╎ │   size)
+             ╎ │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │ size: Size(411.4, 683.4)
+             ╎ │ alignment: AlignmentDirectional.topStart
+             ╎ │ textDirection: ltr
+             ╎ │ fit: expand
+             ╎ │ overflow: clip
+             ╎ │
+             ╎ ├─child 1: RenderIgnorePointer#83bd7
+             ╎ │ │ creator: IgnorePointer ←
+             ╎ │ │   _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#2cd89] ←
+             ╎ │ │   Stack ← _Theatre ←
+             ╎ │ │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             ╎ │ │   Semantics ← FocusScope ← AbsorbPointer ← Listener ←
+             ╎ │ │   Navigator-[GlobalObjectKey<NavigatorState>
+             ╎ │ │   _WidgetsAppState#19cc9] ← IconTheme ← ⋯
+             ╎ │ │ parentData: not positioned; offset=Offset(0.0, 0.0) (can use
+             ╎ │ │   size)
+             ╎ │ │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │ │ size: Size(411.4, 683.4)
+             ╎ │ │ ignoring: false
+             ╎ │ │ ignoringSemantics: implicitly false
+             ╎ │ │
+             ╎ │ └─child: RenderBlockSemantics#e2617
+             ╎ │   │ creator: BlockSemantics ← ModalBarrier ← IgnorePointer ←
+             ╎ │   │   _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#2cd89] ←
+             ╎ │   │   Stack ← _Theatre ←
+             ╎ │   │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             ╎ │   │   Semantics ← FocusScope ← AbsorbPointer ← Listener ← ⋯
+             ╎ │   │ parentData: <none> (can use size)
+             ╎ │   │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │   │ blocks semantics of earlier render objects below the common
+             ╎ │   │ boundary
+             ╎ │   │ size: Size(411.4, 683.4)
+             ╎ │   │ blocking: true
+             ╎ │   │
+             ╎ │   └─child: RenderExcludeSemantics#aa737
+             ╎ │     │ creator: ExcludeSemantics ← BlockSemantics ← ModalBarrier ←
+             ╎ │     │   IgnorePointer ←
+             ╎ │     │   _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#2cd89] ←
+             ╎ │     │   Stack ← _Theatre ←
+             ╎ │     │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             ╎ │     │   Semantics ← FocusScope ← AbsorbPointer ← ⋯
+             ╎ │     │ parentData: <none> (can use size)
+             ╎ │     │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │     │ size: Size(411.4, 683.4)
+             ╎ │     │ excluding: true
+             ╎ │     │
+             ╎ │     └─child: RenderSemanticsGestureHandler#72b3b
+             ╎ │       │ creator: _GestureSemantics ← RawGestureDetector ← GestureDetector
+             ╎ │       │   ← ExcludeSemantics ← BlockSemantics ← ModalBarrier ←
+             ╎ │       │   IgnorePointer ←
+             ╎ │       │   _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#2cd89] ←
+             ╎ │       │   Stack ← _Theatre ←
+             ╎ │       │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             ╎ │       │   ⋯
+             ╎ │       │ parentData: <none> (can use size)
+             ╎ │       │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │       │ size: Size(411.4, 683.4)
+             ╎ │       │ gestures: tap
+             ╎ │       │
+             ╎ │       └─child: RenderPointerListener#209a4
+             ╎ │         │ creator: Listener ← _GestureSemantics ← RawGestureDetector ←
+             ╎ │         │   GestureDetector ← ExcludeSemantics ← BlockSemantics ←
+             ╎ │         │   ModalBarrier ← IgnorePointer ←
+             ╎ │         │   _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#2cd89] ←
+             ╎ │         │   Stack ← _Theatre ←
+             ╎ │         │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← ⋯
+             ╎ │         │ parentData: <none> (can use size)
+             ╎ │         │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │         │ size: Size(411.4, 683.4)
+             ╎ │         │ behavior: opaque
+             ╎ │         │ listeners: down
+             ╎ │         │
+             ╎ │         └─child: RenderSemanticsAnnotations#caef4
+             ╎ │           │ creator: Semantics ← Listener ← _GestureSemantics ←
+             ╎ │           │   RawGestureDetector ← GestureDetector ← ExcludeSemantics ←
+             ╎ │           │   BlockSemantics ← ModalBarrier ← IgnorePointer ←
+             ╎ │           │   _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#2cd89] ←
+             ╎ │           │   Stack ← _Theatre ← ⋯
+             ╎ │           │ parentData: <none> (can use size)
+             ╎ │           │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │           │ size: Size(411.4, 683.4)
+             ╎ │           │
+             ╎ │           └─child: RenderConstrainedBox#e27f0
+             ╎ │               creator: ConstrainedBox ← Semantics ← Listener ←
+             ╎ │                 _GestureSemantics ← RawGestureDetector ← GestureDetector ←
+             ╎ │                 ExcludeSemantics ← BlockSemantics ← ModalBarrier ←
+             ╎ │                 IgnorePointer ←
+             ╎ │                 _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#2cd89] ←
+             ╎ │                 Stack ← ⋯
+             ╎ │               parentData: <none> (can use size)
+             ╎ │               constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎ │               size: Size(411.4, 683.4)
+             ╎ │               additionalConstraints: BoxConstraints(biggest)
+             ╎ │
+             ╎ └─child 2: RenderOffstage#a433e
+             ╎   │ needs compositing
+             ╎   │ creator: Offstage ← _ModalScopeStatus ←
+             ╎   │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#319b4]
+             ╎   │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#5a1c2] ←
+             ╎   │   Stack ← _Theatre ←
+             ╎   │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             ╎   │   Semantics ← FocusScope ← AbsorbPointer ← Listener ← ⋯
+             ╎   │ parentData: not positioned; offset=Offset(0.0, 0.0) (can use
+             ╎   │   size)
+             ╎   │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎   │ size: Size(411.4, 683.4)
+             ╎   │ offstage: false
+             ╎   │
+             ╎   └─child: RenderSemanticsAnnotations#59458
+             ╎     │ needs compositing
+             ╎     │ creator: Semantics ← FocusScope ← PageStorage ← Offstage ←
+             ╎     │   _ModalScopeStatus ←
+             ╎     │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#319b4]
+             ╎     │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#5a1c2] ←
+             ╎     │   Stack ← _Theatre ←
+             ╎     │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+             ╎     │   Semantics ← ⋯
+             ╎     │ parentData: <none> (can use size)
+             ╎     │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎     │ size: Size(411.4, 683.4)
+             ╎     │
+             ╎     └─child: RenderRepaintBoundary#e971c
+             ╎       │ needs compositing
+             ╎       │ creator: RepaintBoundary ← _FocusMarker ← Semantics ← FocusScope
+             ╎       │   ← PageStorage ← Offstage ← _ModalScopeStatus ←
+             ╎       │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#319b4]
+             ╎       │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#5a1c2] ←
+             ╎       │   Stack ← _Theatre ←
+             ╎       │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← ⋯
+             ╎       │ parentData: <none> (can use size)
+             ╎       │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎       │ layer: OffsetLayer#d991d
+             ╎       │ size: Size(411.4, 683.4)
+             ╎       │ metrics: 95.8% useful (1 bad vs 23 good)
+             ╎       │ diagnosis: this is an outstandingly useful repaint boundary and
+             ╎       │   should definitely be kept
+             ╎       │
+             ╎       └─child: RenderFractionalTranslation#110ae
+             ╎         │ needs compositing
+             ╎         │ creator: FractionalTranslation ← SlideTransition ←
+             ╎         │   AnimatedBuilder ← RepaintBoundary ← _FocusMarker ← Semantics ←
+             ╎         │   FocusScope ← PageStorage ← Offstage ← _ModalScopeStatus ←
+             ╎         │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#319b4]
+             ╎         │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#5a1c2] ←
+             ╎         │   ⋯
+             ╎         │ parentData: <none> (can use size)
+             ╎         │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎         │ size: Size(411.4, 683.4)
+             ╎         │ translation: Offset(0.0, 0.0)
+             ╎         │ transformHitTests: true
+             ╎         │
+             ╎         └─child: RenderIgnorePointer#38ca7
+             ╎           │ needs compositing
+             ╎           │ creator: IgnorePointer ← FractionalTranslation ← SlideTransition
+             ╎           │   ← AnimatedBuilder ← RepaintBoundary ← _FocusMarker ← Semantics
+             ╎           │   ← FocusScope ← PageStorage ← Offstage ← _ModalScopeStatus ←
+             ╎           │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#319b4]
+             ╎           │   ← ⋯
+             ╎           │ parentData: <none> (can use size)
+             ╎           │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎           │ size: Size(411.4, 683.4)
+             ╎           │ ignoring: false
+             ╎           │ ignoringSemantics: implicitly false
+             ╎           │
+             ╎           └─child: RenderRepaintBoundary#6e320
+             ╎             │ needs compositing
+             ╎             │ creator: RepaintBoundary-[GlobalKey#4bff6] ← IgnorePointer ←
+             ╎             │   FractionalTranslation ← SlideTransition ← AnimatedBuilder ←
+             ╎             │   RepaintBoundary ← _FocusMarker ← Semantics ← FocusScope ←
+             ╎             │   PageStorage ← Offstage ← _ModalScopeStatus ← ⋯
+             ╎             │ parentData: <none> (can use size)
+             ╎             │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎             │ layer: OffsetLayer#38f64
+             ╎             │ size: Size(411.4, 683.4)
+             ╎             │ metrics: 95.8% useful (1 bad vs 23 good)
+             ╎             │ diagnosis: this is an outstandingly useful repaint boundary and
+             ╎             │   should definitely be kept
+             ╎             │
+             ╎             └─child: RenderPhysicalModel#4661c
+             ╎               │ needs compositing
+             ╎               │ creator: PhysicalModel ← AnimatedPhysicalModel ← Material ←
+             ╎               │   PrimaryScrollController ← _ScaffoldScope ← Scaffold ← OtherPage
+             ╎               │   ← Builder ← RepaintBoundary-[GlobalKey#4bff6] ← IgnorePointer ←
+             ╎               │   FractionalTranslation ← SlideTransition ← ⋯
+             ╎               │ parentData: <none> (can use size)
+             ╎               │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎               │ size: Size(411.4, 683.4)
+             ╎               │ elevation: 0.0
+             ╎               │ color: MaterialColor(primary value: Color(0xfff44336))
+             ╎               │ shadowColor: MaterialColor(primary value: Color(0xfff44336))
+             ╎               │ shape: BoxShape.rectangle
+             ╎               │ borderRadius: BorderRadius.zero
+             ╎               │
+             ╎               └─child: _RenderInkFeatures#44b7d
+             ╎                 │ needs compositing
+             ╎                 │ creator: _InkFeatures-[GlobalKey#64611 ink renderer] ←
+             ╎                 │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                 │   ← AnimatedPhysicalModel ← Material ← PrimaryScrollController ←
+             ╎                 │   _ScaffoldScope ← Scaffold ← OtherPage ← Builder ←
+             ╎                 │   RepaintBoundary-[GlobalKey#4bff6] ← IgnorePointer ← ⋯
+             ╎                 │ parentData: <none> (can use size)
+             ╎                 │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎                 │ size: Size(411.4, 683.4)
+             ╎                 │
+             ╎                 └─child: RenderCustomMultiChildLayoutBox#5a5b1
+             ╎                   │ needs compositing
+             ╎                   │ creator: CustomMultiChildLayout ← AnimatedBuilder ←
+             ╎                   │   DefaultTextStyle ← AnimatedDefaultTextStyle ←
+             ╎                   │   _InkFeatures-[GlobalKey#64611 ink renderer] ←
+             ╎                   │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                   │   ← AnimatedPhysicalModel ← Material ← PrimaryScrollController ←
+             ╎                   │   _ScaffoldScope ← Scaffold ← ⋯
+             ╎                   │ parentData: <none> (can use size)
+             ╎                   │ constraints: BoxConstraints(w=411.4, h=683.4)
+             ╎                   │ size: Size(411.4, 683.4)
+             ╎                   │
+             ╎                   ├─child 1: RenderPositionedBox#97030 relayoutBoundary=up1
+             ╎                   │ │ creator: Center ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
+             ╎                   │ │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+             ╎                   │ │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#64611 ink
+             ╎                   │ │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+             ╎                   │ │   PhysicalModel ← AnimatedPhysicalModel ← Material ← ⋯
+             ╎                   │ │ parentData: offset=Offset(0.0, 80.0); id=_ScaffoldSlot.body (can
+             ╎                   │ │   use size)
+             ╎                   │ │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=603.4)
+             ╎                   │ │ size: Size(411.4, 603.4)
+             ╎                   │ │ alignment: center
+             ╎                   │ │ textDirection: ltr
+             ╎                   │ │ widthFactor: expand
+             ╎                   │ │ heightFactor: expand
+             ╎                   │ │
+             ╎                   │ └─child: RenderParagraph#9c99c relayoutBoundary=up2
+             ╎                   │   │ creator: RichText ← Text ← Center ← MediaQuery ←
+             ╎                   │   │   LayoutId-[<_ScaffoldSlot.body>] ← CustomMultiChildLayout ←
+             ╎                   │   │   AnimatedBuilder ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+             ╎                   │   │   _InkFeatures-[GlobalKey#64611 ink renderer] ←
+             ╎                   │   │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                   │   │   ← ⋯
+             ╎                   │   │ parentData: offset=Offset(188.7, 293.7) (can use size)
+             ╎                   │   │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=603.4)
+             ╎                   │   │ size: Size(34.0, 16.0)
+             ╎                   │   │ textAlign: start
+             ╎                   │   │ textDirection: ltr
+             ╎                   │   │ softWrap: wrapping at box width
+             ╎                   │   │ overflow: clip
+             ╎                   │   │ locale: en_US
+             ╎                   │   │ maxLines: unlimited
+             ╎                   │   ╘═╦══ text ═══
+             ╎                   │     ║ TextSpan:
+             ╎                   │     ║   debugLabel: (englishLike body1 2014).merge(blackMountainView
+             ╎                   │     ║     body1)
+             ╎                   │     ║   inherit: false
+             ╎                   │     ║   color: Color(0xdd000000)
+             ╎                   │     ║   family: Roboto
+             ╎                   │     ║   size: 14.0
+             ╎                   │     ║   weight: 400
+             ╎                   │     ║   baseline: alphabetic
+             ╎                   │     ║   decoration: TextDecoration.none
+             ╎                   │     ║   "Other"
+             ╎                   │     ╚═══════════
+             ╎                   ├─child 2: RenderConstrainedBox#3ae76 relayoutBoundary=up1
+             ╎                   │ │ needs compositing
+             ╎                   │ │ creator: ConstrainedBox ← MediaQuery ←
+             ╎                   │ │   LayoutId-[<_ScaffoldSlot.appBar>] ← CustomMultiChildLayout ←
+             ╎                   │ │   AnimatedBuilder ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+             ╎                   │ │   _InkFeatures-[GlobalKey#64611 ink renderer] ←
+             ╎                   │ │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                   │ │   ← AnimatedPhysicalModel ← Material ← ⋯
+             ╎                   │ │ parentData: offset=Offset(0.0, 0.0); id=_ScaffoldSlot.appBar (can
+             ╎                   │ │   use size)
+             ╎                   │ │ constraints: BoxConstraints(w=411.4, 0.0<=h<=683.4)
+             ╎                   │ │ size: Size(411.4, 80.0)
+             ╎                   │ │ additionalConstraints: BoxConstraints(0.0<=w<=Infinity,
+             ╎                   │ │   0.0<=h<=80.0)
+             ╎                   │ │
+             ╎                   │ └─child: RenderSemanticsAnnotations#0121f relayoutBoundary=up2
+             ╎                   │   │ needs compositing
+             ╎                   │   │ creator: Semantics ← AppBar ← FlexibleSpaceBarSettings ←
+             ╎                   │   │   ConstrainedBox ← MediaQuery ← LayoutId-[<_ScaffoldSlot.appBar>]
+             ╎                   │   │   ← CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+             ╎                   │   │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#64611 ink
+             ╎                   │   │   renderer] ← NotificationListener<LayoutChangedNotification> ← ⋯
+             ╎                   │   │ parentData: <none> (can use size)
+             ╎                   │   │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+             ╎                   │   │ semantic boundary
+             ╎                   │   │ size: Size(411.4, 80.0)
+             ╎                   │   │
+             ╎                   │   └─child: RenderAnnotatedRegion<SystemUiOverlayStyle>#60bd3 relayoutBoundary=up3
+             ╎                   │     │ needs compositing
+             ╎                   │     │ creator: AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ←
+             ╎                   │     │   AppBar ← FlexibleSpaceBarSettings ← ConstrainedBox ← MediaQuery
+             ╎                   │     │   ← LayoutId-[<_ScaffoldSlot.appBar>] ← CustomMultiChildLayout ←
+             ╎                   │     │   AnimatedBuilder ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+             ╎                   │     │   _InkFeatures-[GlobalKey#64611 ink renderer] ← ⋯
+             ╎                   │     │ parentData: <none> (can use size)
+             ╎                   │     │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+             ╎                   │     │ size: Size(411.4, 80.0)
+             ╎                   │     │
+             ╎                   │     └─child: RenderPhysicalModel#2eb7d relayoutBoundary=up4
+             ╎                   │       │ needs compositing
+             ╎                   │       │ creator: PhysicalModel ← AnimatedPhysicalModel ← Material ←
+             ╎                   │       │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ←
+             ╎                   │       │   FlexibleSpaceBarSettings ← ConstrainedBox ← MediaQuery ←
+             ╎                   │       │   LayoutId-[<_ScaffoldSlot.appBar>] ← CustomMultiChildLayout ←
+             ╎                   │       │   AnimatedBuilder ← ⋯
+             ╎                   │       │ parentData: <none> (can use size)
+             ╎                   │       │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+             ╎                   │       │ size: Size(411.4, 80.0)
+             ╎                   │       │ elevation: 4.0
+             ╎                   │       │ color: MaterialColor(primary value: Color(0xffffeb3b))
+             ╎                   │       │ shadowColor: MaterialColor(primary value: Color(0xffffeb3b))
+             ╎                   │       │ shape: BoxShape.rectangle
+             ╎                   │       │ borderRadius: BorderRadius.zero
+             ╎                   │       │
+             ╎                   │       └─child: _RenderInkFeatures#c109b relayoutBoundary=up5
+             ╎                   │         │ creator: _InkFeatures-[GlobalKey#d8e0c ink renderer] ←
+             ╎                   │         │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                   │         │   ← AnimatedPhysicalModel ← Material ←
+             ╎                   │         │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ←
+             ╎                   │         │   FlexibleSpaceBarSettings ← ConstrainedBox ← MediaQuery ←
+             ╎                   │         │   LayoutId-[<_ScaffoldSlot.appBar>] ← ⋯
+             ╎                   │         │ parentData: <none> (can use size)
+             ╎                   │         │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+             ╎                   │         │ size: Size(411.4, 80.0)
+             ╎                   │         │
+             ╎                   │         └─child: RenderSemanticsAnnotations#8cd5f relayoutBoundary=up6
+             ╎                   │           │ creator: Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle
+             ╎                   │           │   ← _InkFeatures-[GlobalKey#d8e0c ink renderer] ←
+             ╎                   │           │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                   │           │   ← AnimatedPhysicalModel ← Material ←
+             ╎                   │           │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ←
+             ╎                   │           │   FlexibleSpaceBarSettings ← ⋯
+             ╎                   │           │ parentData: <none> (can use size)
+             ╎                   │           │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+             ╎                   │           │ size: Size(411.4, 80.0)
+             ╎                   │           │
+             ╎                   │           └─child: RenderPositionedBox#415e4 relayoutBoundary=up7
+             ╎                   │             │ creator: Align ← Semantics ← DefaultTextStyle ←
+             ╎                   │             │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#d8e0c ink
+             ╎                   │             │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+             ╎                   │             │   PhysicalModel ← AnimatedPhysicalModel ← Material ←
+             ╎                   │             │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ← ⋯
+             ╎                   │             │ parentData: <none> (can use size)
+             ╎                   │             │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+             ╎                   │             │ size: Size(411.4, 80.0)
+             ╎                   │             │ alignment: topCenter
+             ╎                   │             │ textDirection: ltr
+             ╎                   │             │ widthFactor: expand
+             ╎                   │             │ heightFactor: expand
+             ╎                   │             │
+             ╎                   │             └─child: RenderPadding#565af relayoutBoundary=up8
+             ╎                   │               │ creator: Padding ← SafeArea ← Align ← Semantics ←
+             ╎                   │               │   DefaultTextStyle ← AnimatedDefaultTextStyle ←
+             ╎                   │               │   _InkFeatures-[GlobalKey#d8e0c ink renderer] ←
+             ╎                   │               │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                   │               │   ← AnimatedPhysicalModel ← Material ←
+             ╎                   │               │   AnnotatedRegion<SystemUiOverlayStyle> ← ⋯
+             ╎                   │               │ parentData: offset=Offset(0.0, 0.0) (can use size)
+             ╎                   │               │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=80.0)
+             ╎                   │               │ size: Size(411.4, 80.0)
+             ╎                   │               │ padding: EdgeInsets(0.0, 24.0, 0.0, 0.0)
+             ╎                   │               │ textDirection: ltr
+             ╎                   │               │
+             ╎                   │               └─child: RenderClipRect#7280c relayoutBoundary=up9
+             ╎                   │                 │ creator: ClipRect ← MediaQuery ← Padding ← SafeArea ← Align ←
+             ╎                   │                 │   Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+             ╎                   │                 │   _InkFeatures-[GlobalKey#d8e0c ink renderer] ←
+             ╎                   │                 │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+             ╎                   │                 │   ← AnimatedPhysicalModel ← ⋯
+             ╎                   │                 │ parentData: offset=Offset(0.0, 24.0) (can use size)
+             ╎                   │                 │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=56.0)
+             ╎                   │                 │ size: Size(411.4, 56.0)
+             ╎                   │                 │
+             ╎                   │                 └─child: RenderCustomSingleChildLayoutBox#105e4 relayoutBoundary=up10
+             ╎                   │                   │ creator: CustomSingleChildLayout ← ClipRect ← MediaQuery ←
+             ╎                   │                   │   Padding ← SafeArea ← Align ← Semantics ← DefaultTextStyle ←
+             ╎                   │                   │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#d8e0c ink
+             ╎                   │                   │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+             ╎                   │                   │   PhysicalModel ← ⋯
+             ╎                   │                   │ parentData: <none> (can use size)
+             ╎                   │                   │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=56.0)
+             ╎                   │                   │ size: Size(411.4, 56.0)
+             ╎                   │                   │
+             ╎                   │                   └─child: RenderCustomMultiChildLayoutBox#7d506 relayoutBoundary=up11
+             ╎                   │                     │ creator: CustomMultiChildLayout ← NavigationToolbar ←
+             ╎                   │                     │   DefaultTextStyle ← IconTheme ← Builder ←
+             ╎                   │                     │   CustomSingleChildLayout ← ClipRect ← MediaQuery ← Padding ←
+             ╎                   │                     │   SafeArea ← Align ← Semantics ← ⋯
+             ╎                   │                     │ parentData: offset=Offset(0.0, 0.0) (can use size)
+             ╎                   │                     │ constraints: BoxConstraints(0.0<=w<=411.4, h=56.0)
+             ╎                   │                     │ size: Size(411.4, 56.0)
+             ╎                   │                     │
+             ╎                   │                     ├─child 1: RenderConstrainedBox#298db relayoutBoundary=up12
+             ╎                   │                     │ │ creator: ConstrainedBox ← LayoutId-[<_ToolbarSlot.leading>] ←
+             ╎                   │                     │ │   CustomMultiChildLayout ← NavigationToolbar ← DefaultTextStyle ←
+             ╎                   │                     │ │   IconTheme ← Builder ← CustomSingleChildLayout ← ClipRect ←
+             ╎                   │                     │ │   MediaQuery ← Padding ← SafeArea ← ⋯
+             ╎                   │                     │ │ parentData: offset=Offset(0.0, 0.0); id=_ToolbarSlot.leading (can
+             ╎                   │                     │ │   use size)
+             ╎                   │                     │ │ constraints: BoxConstraints(0.0<=w<=137.1, h=56.0)
+             ╎                   │                     │ │ size: Size(56.0, 56.0)
+             ╎                   │                     │ │ additionalConstraints: BoxConstraints(w=56.0, 0.0<=h<=Infinity)
+             ╎                   │                     │ │
+             ╎                   │                     │ └─child: RenderSemanticsAnnotations#4652e
+             ╎                   │                     │   │ creator: Semantics ← IconButton ← BackButton ← ConstrainedBox ←
+             ╎                   │                     │   │   LayoutId-[<_ToolbarSlot.leading>] ← CustomMultiChildLayout ←
+             ╎                   │                     │   │   NavigationToolbar ← DefaultTextStyle ← IconTheme ← Builder ←
+             ╎                   │                     │   │   CustomSingleChildLayout ← ClipRect ← ⋯
+             ╎                   │                     │   │ parentData: <none> (can use size)
+             ╎                   │                     │   │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │   │ size: Size(56.0, 56.0)
+             ╎                   │                     │   │
+             ╎                   │                     │   └─child: RenderPointerListener#e51ba
+             ╎                   │                     │     │ creator: Listener ← InkResponse ← _FocusMarker ← Focus ←
+             ╎                   │                     │     │   Semantics ← IconButton ← BackButton ← ConstrainedBox ←
+             ╎                   │                     │     │   LayoutId-[<_ToolbarSlot.leading>] ← CustomMultiChildLayout ←
+             ╎                   │                     │     │   NavigationToolbar ← DefaultTextStyle ← ⋯
+             ╎                   │                     │     │ parentData: <none> (can use size)
+             ╎                   │                     │     │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │     │ size: Size(56.0, 56.0)
+             ╎                   │                     │     │ behavior: translucent
+             ╎                   │                     │     │ listeners: enter, exit
+             ╎                   │                     │     │
+             ╎                   │                     │     └─child: RenderSemanticsGestureHandler#ca7b4
+             ╎                   │                     │       │ creator: _GestureSemantics ← RawGestureDetector ← GestureDetector
+             ╎                   │                     │       │   ← Listener ← InkResponse ← _FocusMarker ← Focus ← Semantics ←
+             ╎                   │                     │       │   IconButton ← BackButton ← ConstrainedBox ←
+             ╎                   │                     │       │   LayoutId-[<_ToolbarSlot.leading>] ← ⋯
+             ╎                   │                     │       │ parentData: <none> (can use size)
+             ╎                   │                     │       │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │       │ size: Size(56.0, 56.0)
+             ╎                   │                     │       │ gestures: tap
+             ╎                   │                     │       │
+             ╎                   │                     │       └─child: RenderPointerListener#218b1
+             ╎                   │                     │         │ creator: Listener ← _GestureSemantics ← RawGestureDetector ←
+             ╎                   │                     │         │   GestureDetector ← Listener ← InkResponse ← _FocusMarker ← Focus
+             ╎                   │                     │         │   ← Semantics ← IconButton ← BackButton ← ConstrainedBox ← ⋯
+             ╎                   │                     │         │ parentData: <none> (can use size)
+             ╎                   │                     │         │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │         │ size: Size(56.0, 56.0)
+             ╎                   │                     │         │ behavior: opaque
+             ╎                   │                     │         │ listeners: down
+             ╎                   │                     │         │
+             ╎                   │                     │         └─child: RenderPointerListener#cb1c1
+             ╎                   │                     │           │ creator: Listener ← RawGestureDetector ← GestureDetector ←
+             ╎                   │                     │           │   Tooltip ← Listener ← _GestureSemantics ← RawGestureDetector ←
+             ╎                   │                     │           │   GestureDetector ← Listener ← InkResponse ← _FocusMarker ← Focus
+             ╎                   │                     │           │   ← ⋯
+             ╎                   │                     │           │ parentData: <none> (can use size)
+             ╎                   │                     │           │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │           │ size: Size(56.0, 56.0)
+             ╎                   │                     │           │ behavior: opaque
+             ╎                   │                     │           │ listeners: down
+             ╎                   │                     │           │
+             ╎                   │                     │           └─child: RenderSemanticsAnnotations#15c17
+             ╎                   │                     │             │ creator: Semantics ← Listener ← RawGestureDetector ←
+             ╎                   │                     │             │   GestureDetector ← Tooltip ← Listener ← _GestureSemantics ←
+             ╎                   │                     │             │   RawGestureDetector ← GestureDetector ← Listener ← InkResponse ←
+             ╎                   │                     │             │   _FocusMarker ← ⋯
+             ╎                   │                     │             │ parentData: <none> (can use size)
+             ╎                   │                     │             │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │             │ size: Size(56.0, 56.0)
+             ╎                   │                     │             │
+             ╎                   │                     │             └─child: RenderConstrainedBox#0f6e3
+             ╎                   │                     │               │ creator: ConstrainedBox ← Semantics ← Listener ←
+             ╎                   │                     │               │   RawGestureDetector ← GestureDetector ← Tooltip ← Listener ←
+             ╎                   │                     │               │   _GestureSemantics ← RawGestureDetector ← GestureDetector ←
+             ╎                   │                     │               │   Listener ← InkResponse ← ⋯
+             ╎                   │                     │               │ parentData: <none> (can use size)
+             ╎                   │                     │               │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │               │ size: Size(56.0, 56.0)
+             ╎                   │                     │               │ additionalConstraints: BoxConstraints(48.0<=w<=Infinity,
+             ╎                   │                     │               │   48.0<=h<=Infinity)
+             ╎                   │                     │               │
+             ╎                   │                     │               └─child: RenderPadding#6cce6
+             ╎                   │                     │                 │ creator: Padding ← ConstrainedBox ← Semantics ← Listener ←
+             ╎                   │                     │                 │   RawGestureDetector ← GestureDetector ← Tooltip ← Listener ←
+             ╎                   │                     │                 │   _GestureSemantics ← RawGestureDetector ← GestureDetector ←
+             ╎                   │                     │                 │   Listener ← ⋯
+             ╎                   │                     │                 │ parentData: <none> (can use size)
+             ╎                   │                     │                 │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                   │                     │                 │ size: Size(56.0, 56.0)
+             ╎                   │                     │                 │ padding: EdgeInsets.all(8.0)
+             ╎                   │                     │                 │ textDirection: ltr
+             ╎                   │                     │                 │
+             ╎                   │                     │                 └─child: RenderConstrainedBox#0029a
+             ╎                   │                     │                   │ creator: SizedBox ← Padding ← ConstrainedBox ← Semantics ←
+             ╎                   │                     │                   │   Listener ← RawGestureDetector ← GestureDetector ← Tooltip ←
+             ╎                   │                     │                   │   Listener ← _GestureSemantics ← RawGestureDetector ←
+             ╎                   │                     │                   │   GestureDetector ← ⋯
+             ╎                   │                     │                   │ parentData: offset=Offset(8.0, 8.0) (can use size)
+             ╎                   │                     │                   │ constraints: BoxConstraints(w=40.0, h=40.0)
+             ╎                   │                     │                   │ size: Size(40.0, 40.0)
+             ╎                   │                     │                   │ additionalConstraints: BoxConstraints(w=24.0, h=24.0)
+             ╎                   │                     │                   │
+             ╎                   │                     │                   └─child: RenderPositionedBox#d0b7f
+             ╎                   │                     │                     │ creator: Align ← SizedBox ← Padding ← ConstrainedBox ← Semantics
+             ╎                   │                     │                     │   ← Listener ← RawGestureDetector ← GestureDetector ← Tooltip ←
+             ╎                   │                     │                     │   Listener ← _GestureSemantics ← RawGestureDetector ← ⋯
+             ╎                   │                     │                     │ parentData: <none> (can use size)
+             ╎                   │                     │                     │ constraints: BoxConstraints(w=40.0, h=40.0)
+             ╎                   │                     │                     │ size: Size(40.0, 40.0)
+             ╎                   │                     │                     │ alignment: center
+             ╎                   │                     │                     │ textDirection: ltr
+             ╎                   │                     │                     │ widthFactor: expand
+             ╎                   │                     │                     │ heightFactor: expand
+             ╎                   │                     │                     │
+             ╎                   │                     │                     └─child: RenderSemanticsAnnotations#43a0f relayoutBoundary=up1
+             ╎                   │                     │                       │ creator: Semantics ← Icon ← BackButtonIcon ← IconTheme ← Builder
+             ╎                   │                     │                       │   ← Align ← SizedBox ← Padding ← ConstrainedBox ← Semantics ←
+             ╎                   │                     │                       │   Listener ← RawGestureDetector ← ⋯
+             ╎                   │                     │                       │ parentData: offset=Offset(8.0, 8.0) (can use size)
+             ╎                   │                     │                       │ constraints: BoxConstraints(0.0<=w<=40.0, 0.0<=h<=40.0)
+             ╎                   │                     │                       │ size: Size(24.0, 24.0)
+             ╎                   │                     │                       │
+             ╎                   │                     │                       └─child: RenderExcludeSemantics#29bad relayoutBoundary=up2
+             ╎                   │                     │                         │ creator: ExcludeSemantics ← Semantics ← Icon ← BackButtonIcon ←
+             ╎                   │                     │                         │   IconTheme ← Builder ← Align ← SizedBox ← Padding ←
+             ╎                   │                     │                         │   ConstrainedBox ← Semantics ← Listener ← ⋯
+             ╎                   │                     │                         │ parentData: <none> (can use size)
+             ╎                   │                     │                         │ constraints: BoxConstraints(0.0<=w<=40.0, 0.0<=h<=40.0)
+             ╎                   │                     │                         │ size: Size(24.0, 24.0)
+             ╎                   │                     │                         │ excluding: true
+             ╎                   │                     │                         │
+             ╎                   │                     │                         └─child: RenderConstrainedBox#74c74 relayoutBoundary=up3
+             ╎                   │                     │                           │ creator: SizedBox ← ExcludeSemantics ← Semantics ← Icon ←
+             ╎                   │                     │                           │   BackButtonIcon ← IconTheme ← Builder ← Align ← SizedBox ←
+             ╎                   │                     │                           │   Padding ← ConstrainedBox ← Semantics ← ⋯
+             ╎                   │                     │                           │ parentData: <none> (can use size)
+             ╎                   │                     │                           │ constraints: BoxConstraints(0.0<=w<=40.0, 0.0<=h<=40.0)
+             ╎                   │                     │                           │ size: Size(24.0, 24.0)
+             ╎                   │                     │                           │ additionalConstraints: BoxConstraints(w=24.0, h=24.0)
+             ╎                   │                     │                           │
+             ╎                   │                     │                           └─child: RenderPositionedBox#ea379
+             ╎                   │                     │                             │ creator: Center ← SizedBox ← ExcludeSemantics ← Semantics ← Icon
+             ╎                   │                     │                             │   ← BackButtonIcon ← IconTheme ← Builder ← Align ← SizedBox ←
+             ╎                   │                     │                             │   Padding ← ConstrainedBox ← ⋯
+             ╎                   │                     │                             │ parentData: <none> (can use size)
+             ╎                   │                     │                             │ constraints: BoxConstraints(w=24.0, h=24.0)
+             ╎                   │                     │                             │ size: Size(24.0, 24.0)
+             ╎                   │                     │                             │ alignment: center
+             ╎                   │                     │                             │ textDirection: ltr
+             ╎                   │                     │                             │ widthFactor: expand
+             ╎                   │                     │                             │ heightFactor: expand
+             ╎                   │                     │                             │
+             ╎                   │                     │                             └─child: RenderParagraph#3edd9 relayoutBoundary=up1
+             ╎                   │                     │                               │ creator: RichText ← Center ← SizedBox ← ExcludeSemantics ←
+             ╎                   │                     │                               │   Semantics ← Icon ← BackButtonIcon ← IconTheme ← Builder ← Align
+             ╎                   │                     │                               │   ← SizedBox ← Padding ← ⋯
+             ╎                   │                     │                               │ parentData: offset=Offset(0.0, 0.0) (can use size)
+             ╎                   │                     │                               │ constraints: BoxConstraints(0.0<=w<=24.0, 0.0<=h<=24.0)
+             ╎                   │                     │                               │ size: Size(24.0, 24.0)
+             ╎                   │                     │                               │ textAlign: start
+             ╎                   │                     │                               │ textDirection: ltr
+             ╎                   │                     │                               │ softWrap: wrapping at box width
+             ╎                   │                     │                               │ overflow: visible
+             ╎                   │                     │                               │ locale: en_US
+             ╎                   │                     │                               │ maxLines: unlimited
+             ╎                   │                     │                               ╘═╦══ text ═══
+             ╎                   │                     │                                 ║ TextSpan:
+             ╎                   │                     │                                 ║   inherit: false
+             ╎                   │                     │                                 ║   color: Color(0xffffffff)
+             ╎                   │                     │                                 ║   family: MaterialIcons
+             ╎                   │                     │                                 ║   size: 24.0
+             ╎                   │                     │                                 ║   ""
+             ╎                   │                     │                                 ╚═══════════
+             ╎                   │                     └─child 2: RenderSemanticsAnnotations#297cb relayoutBoundary=up12
+             ╎                   │                       │ creator: Semantics ← DefaultTextStyle ←
+             ╎                   │                       │   LayoutId-[<_ToolbarSlot.middle>] ← CustomMultiChildLayout ←
+             ╎                   │                       │   NavigationToolbar ← DefaultTextStyle ← IconTheme ← Builder ←
+             ╎                   │                       │   CustomSingleChildLayout ← ClipRect ← MediaQuery ← Padding ← ⋯
+             ╎                   │                       │ parentData: offset=Offset(72.0, 16.5); id=_ToolbarSlot.middle
+             ╎                   │                       │   (can use size)
+             ╎                   │                       │ constraints: BoxConstraints(0.0<=w<=323.4, 0.0<=h<=56.0)
+             ╎                   │                       │ size: Size(50.0, 23.0)
+             ╎                   │                       │
+             ╎                   │                       └─child: RenderParagraph#69db8 relayoutBoundary=up13
+             ╎                   │                         │ creator: RichText ← Text ← Semantics ← DefaultTextStyle ←
+             ╎                   │                         │   LayoutId-[<_ToolbarSlot.middle>] ← CustomMultiChildLayout ←
+             ╎                   │                         │   NavigationToolbar ← DefaultTextStyle ← IconTheme ← Builder ←
+             ╎                   │                         │   CustomSingleChildLayout ← ClipRect ← ⋯
+             ╎                   │                         │ parentData: <none> (can use size)
+             ╎                   │                         │ constraints: BoxConstraints(0.0<=w<=323.4, 0.0<=h<=56.0)
+             ╎                   │                         │ size: Size(50.0, 23.0)
+             ╎                   │                         │ textAlign: start
+             ╎                   │                         │ textDirection: ltr
+             ╎                   │                         │ softWrap: no wrapping except at line break characters
+             ╎                   │                         │ overflow: ellipsis
+             ╎                   │                         │ locale: en_US
+             ╎                   │                         │ maxLines: unlimited
+             ╎                   │                         ╘═╦══ text ═══
+             ╎                   │                           ║ TextSpan:
+             ╎                   │                           ║   debugLabel: (englishLike title 2014).merge(whiteMountainView
+             ╎                   │                           ║     title)
+             ╎                   │                           ║   inherit: false
+             ╎                   │                           ║   color: Color(0xffffffff)
+             ╎                   │                           ║   family: Roboto
+             ╎                   │                           ║   size: 20.0
+             ╎                   │                           ║   weight: 500
+             ╎                   │                           ║   baseline: alphabetic
+             ╎                   │                           ║   decoration: TextDecoration.none
+             ╎                   │                           ║   "Other"
+             ╎                   │                           ╚═══════════
+             ╎                   └─child 3: RenderStack#a1687 relayoutBoundary=up1
+             ╎                     │ needs compositing
+             ╎                     │ creator: Stack ← _FloatingActionButtonTransition ← MediaQuery ←
+             ╎                     │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+             ╎                     │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+             ╎                     │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#64611 ink
+             ╎                     │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+             ╎                     │   PhysicalModel ← AnimatedPhysicalModel ← ⋯
+             ╎                     │ parentData: offset=Offset(339.4, 611.4);
+             ╎                     │   id=_ScaffoldSlot.floatingActionButton (can use size)
+             ╎                     │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                     │ size: Size(56.0, 56.0)
+             ╎                     │ alignment: centerRight
+             ╎                     │ textDirection: ltr
+             ╎                     │ fit: loose
+             ╎                     │ overflow: clip
+             ╎                     │
+             ╎                     └─child 1: RenderTransform#1e04b relayoutBoundary=up2
+             ╎                       │ needs compositing
+             ╎                       │ creator: Transform ← ScaleTransition ← Stack ←
+             ╎                       │   _FloatingActionButtonTransition ← MediaQuery ←
+             ╎                       │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+             ╎                       │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+             ╎                       │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#64611 ink
+             ╎                       │   renderer] ← NotificationListener<LayoutChangedNotification> ← ⋯
+             ╎                       │ parentData: not positioned; offset=Offset(0.0, 0.0) (can use
+             ╎                       │   size)
+             ╎                       │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                       │ size: Size(56.0, 56.0)
+             ╎                       │ transform matrix:
+             ╎                       │   [0] 1.0,0.0,0.0,0.0
+             ╎                       │   [1] 0.0,1.0,0.0,0.0
+             ╎                       │   [2] 0.0,0.0,1.0,0.0
+             ╎                       │   [3] 0.0,0.0,0.0,1.0
+             ╎                       │ origin: null
+             ╎                       │ alignment: center
+             ╎                       │ textDirection: ltr
+             ╎                       │ transformHitTests: true
+             ╎                       │
+             ╎                       └─child: RenderTransform#6f951 relayoutBoundary=up3
+             ╎                         │ needs compositing
+             ╎                         │ creator: Transform ← RotationTransition ← Transform ←
+             ╎                         │   ScaleTransition ← Stack ← _FloatingActionButtonTransition ←
+             ╎                         │   MediaQuery ← LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+             ╎                         │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+             ╎                         │   AnimatedDefaultTextStyle ← ⋯
+             ╎                         │ parentData: <none> (can use size)
+             ╎                         │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                         │ size: Size(56.0, 56.0)
+             ╎                         │ transform matrix:
+             ╎                         │   [0] 1.0,0.0,0.0,0.0
+             ╎                         │   [1] -0.0,1.0,0.0,0.0
+             ╎                         │   [2] 0.0,0.0,1.0,0.0
+             ╎                         │   [3] 0.0,0.0,0.0,1.0
+             ╎                         │ origin: null
+             ╎                         │ alignment: center
+             ╎                         │ textDirection: ltr
+             ╎                         │ transformHitTests: true
+             ╎                         │
+             ╎                         └─child: RenderMergeSemantics#01289 relayoutBoundary=up4
+             ╎                           │ needs compositing
+             ╎                           │ creator: MergeSemantics ← FloatingActionButton-[<'otherPush'>] ←
+             ╎                           │   Transform ← RotationTransition ← Transform ← ScaleTransition ←
+             ╎                           │   Stack ← _FloatingActionButtonTransition ← MediaQuery ←
+             ╎                           │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+             ╎                           │   CustomMultiChildLayout ← AnimatedBuilder ← ⋯
+             ╎                           │ parentData: <none> (can use size)
+             ╎                           │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                           │ semantic boundary
+             ╎                           │ size: Size(56.0, 56.0)
+             ╎                           │
+             ╎                           └─child: RenderConstrainedBox#c2637 relayoutBoundary=up5
+             ╎                             │ needs compositing
+             ╎                             │ creator: SizedBox ← Hero ← MergeSemantics ←
+             ╎                             │   FloatingActionButton-[<'otherPush'>] ← Transform ←
+             ╎                             │   RotationTransition ← Transform ← ScaleTransition ← Stack ←
+             ╎                             │   _FloatingActionButtonTransition ← MediaQuery ←
+             ╎                             │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ← ⋯
+             ╎                             │ parentData: <none> (can use size)
+             ╎                             │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                             │ size: Size(56.0, 56.0)
+             ╎                             │ additionalConstraints: BoxConstraints(unconstrained)
+             ╎                             │
+             ╎                             └─child: RenderOffstage#1986d relayoutBoundary=up6
+             ╎                               │ needs compositing
+             ╎                               │ creator: Offstage ← SizedBox ← Hero ← MergeSemantics ←
+             ╎                               │   FloatingActionButton-[<'otherPush'>] ← Transform ←
+             ╎                               │   RotationTransition ← Transform ← ScaleTransition ← Stack ←
+             ╎                               │   _FloatingActionButtonTransition ← MediaQuery ← ⋯
+             ╎                               │ parentData: <none> (can use size)
+             ╎                               │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                               │ size: Size(56.0, 56.0)
+             ╎                               │ offstage: false
+             ╎                               │
+             ╎                               └─child: RenderSemanticsAnnotations#8a732 relayoutBoundary=up7
+             ╎                                 │ needs compositing
+             ╎                                 │ creator: Semantics ← RawMaterialButton ←
+             ╎                                 │   KeyedSubtree-[GlobalKey#5808b] ← TickerMode ← Offstage ←
+             ╎                                 │   SizedBox ← Hero ← MergeSemantics ←
+             ╎                                 │   FloatingActionButton-[<'otherPush'>] ← Transform ←
+             ╎                                 │   RotationTransition ← Transform ← ⋯
+             ╎                                 │ parentData: <none> (can use size)
+             ╎                                 │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                                 │ semantic boundary
+             ╎                                 │ size: Size(56.0, 56.0)
+             ╎                                 │
+             ╎                                 └─child: _RenderInputPadding#17668 relayoutBoundary=up8
+             ╎                                   │ needs compositing
+             ╎                                   │ creator: _InputPadding ← Semantics ← RawMaterialButton ←
+             ╎                                   │   KeyedSubtree-[GlobalKey#5808b] ← TickerMode ← Offstage ←
+             ╎                                   │   SizedBox ← Hero ← MergeSemantics ←
+             ╎                                   │   FloatingActionButton-[<'otherPush'>] ← Transform ←
+             ╎                                   │   RotationTransition ← ⋯
+             ╎                                   │ parentData: <none> (can use size)
+             ╎                                   │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                                   │ size: Size(56.0, 56.0)
+             ╎                                   │
+             ╎                                   └─child: RenderConstrainedBox#78bc4 relayoutBoundary=up9
+             ╎                                     │ needs compositing
+             ╎                                     │ creator: ConstrainedBox ← _FocusMarker ← Focus ← _InputPadding ←
+             ╎                                     │   Semantics ← RawMaterialButton ← KeyedSubtree-[GlobalKey#5808b]
+             ╎                                     │   ← TickerMode ← Offstage ← SizedBox ← Hero ← MergeSemantics ← ⋯
+             ╎                                     │ parentData: offset=Offset(0.0, 0.0) (can use size)
+             ╎                                     │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+             ╎                                     │ size: Size(56.0, 56.0)
+             ╎                                     │ additionalConstraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                     │
+             ╎                                     └─child: RenderPhysicalShape#bbe74
+             ╎                                       │ needs compositing
+             ╎                                       │ creator: PhysicalShape ← _MaterialInterior ← Material ←
+             ╎                                       │   ConstrainedBox ← _FocusMarker ← Focus ← _InputPadding ←
+             ╎                                       │   Semantics ← RawMaterialButton ← KeyedSubtree-[GlobalKey#5808b]
+             ╎                                       │   ← TickerMode ← Offstage ← ⋯
+             ╎                                       │ parentData: <none> (can use size)
+             ╎                                       │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                       │ size: Size(56.0, 56.0)
+             ╎                                       │ elevation: 6.0
+             ╎                                       │ color: Color(0xff2196f3)
+             ╎                                       │ shadowColor: Color(0xff2196f3)
+             ╎                                       │ clipper: ShapeBorderClipper
+             ╎                                       │
+             ╎                                       └─child: RenderCustomPaint#799bc
+             ╎                                         │ creator: CustomPaint ← _ShapeBorderPaint ← PhysicalShape ←
+             ╎                                         │   _MaterialInterior ← Material ← ConstrainedBox ← _FocusMarker ←
+             ╎                                         │   Focus ← _InputPadding ← Semantics ← RawMaterialButton ←
+             ╎                                         │   KeyedSubtree-[GlobalKey#5808b] ← ⋯
+             ╎                                         │ parentData: <none> (can use size)
+             ╎                                         │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                         │ size: Size(56.0, 56.0)
+             ╎                                         │
+             ╎                                         └─child: _RenderInkFeatures#535a5
+             ╎                                           │ creator: _InkFeatures-[GlobalKey#7a61a ink renderer] ←
+             ╎                                           │   NotificationListener<LayoutChangedNotification> ← CustomPaint ←
+             ╎                                           │   _ShapeBorderPaint ← PhysicalShape ← _MaterialInterior ←
+             ╎                                           │   Material ← ConstrainedBox ← _FocusMarker ← Focus ←
+             ╎                                           │   _InputPadding ← Semantics ← ⋯
+             ╎                                           │ parentData: <none> (can use size)
+             ╎                                           │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                           │ size: Size(56.0, 56.0)
+             ╎                                           │
+             ╎                                           └─child: RenderPointerListener#dd96f
+             ╎                                             │ creator: Listener ← InkWell ← DefaultTextStyle ←
+             ╎                                             │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#7a61a ink
+             ╎                                             │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+             ╎                                             │   CustomPaint ← _ShapeBorderPaint ← PhysicalShape ←
+             ╎                                             │   _MaterialInterior ← Material ← ConstrainedBox ← ⋯
+             ╎                                             │ parentData: <none> (can use size)
+             ╎                                             │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                             │ size: Size(56.0, 56.0)
+             ╎                                             │ behavior: translucent
+             ╎                                             │ listeners: enter, exit
+             ╎                                             │
+             ╎                                             └─child: RenderSemanticsGestureHandler#7c821
+             ╎                                               │ creator: _GestureSemantics ← RawGestureDetector ← GestureDetector
+             ╎                                               │   ← Listener ← InkWell ← DefaultTextStyle ←
+             ╎                                               │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#7a61a ink
+             ╎                                               │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+             ╎                                               │   CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← ⋯
+             ╎                                               │ parentData: <none> (can use size)
+             ╎                                               │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                               │ size: Size(56.0, 56.0)
+             ╎                                               │ gestures: tap
+             ╎                                               │
+             ╎                                               └─child: RenderPointerListener#188a2
+             ╎                                                 │ creator: Listener ← _GestureSemantics ← RawGestureDetector ←
+             ╎                                                 │   GestureDetector ← Listener ← InkWell ← DefaultTextStyle ←
+             ╎                                                 │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#7a61a ink
+             ╎                                                 │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+             ╎                                                 │   CustomPaint ← _ShapeBorderPaint ← ⋯
+             ╎                                                 │ parentData: <none> (can use size)
+             ╎                                                 │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                                 │ size: Size(56.0, 56.0)
+             ╎                                                 │ behavior: opaque
+             ╎                                                 │ listeners: down
+             ╎                                                 │
+             ╎                                                 └─child: RenderPadding#2f295
+             ╎                                                   │ creator: Padding ← Container ← IconTheme ← Builder ← Listener ←
+             ╎                                                   │   _GestureSemantics ← RawGestureDetector ← GestureDetector ←
+             ╎                                                   │   Listener ← InkWell ← DefaultTextStyle ←
+             ╎                                                   │   AnimatedDefaultTextStyle ← ⋯
+             ╎                                                   │ parentData: <none> (can use size)
+             ╎                                                   │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                                   │ size: Size(56.0, 56.0)
+             ╎                                                   │ padding: EdgeInsets.zero
+             ╎                                                   │ textDirection: ltr
+             ╎                                                   │
+             ╎                                                   └─child: RenderPositionedBox#4bba2
+             ╎                                                     │ creator: Center ← Padding ← Container ← IconTheme ← Builder ←
+             ╎                                                     │   Listener ← _GestureSemantics ← RawGestureDetector ←
+             ╎                                                     │   GestureDetector ← Listener ← InkWell ← DefaultTextStyle ← ⋯
+             ╎                                                     │ parentData: offset=Offset(0.0, 0.0) (can use size)
+             ╎                                                     │ constraints: BoxConstraints(w=56.0, h=56.0)
+             ╎                                                     │ size: Size(56.0, 56.0)
+             ╎                                                     │ alignment: center
+             ╎                                                     │ textDirection: ltr
+             ╎                                                     │ widthFactor: 1.0
+             ╎                                                     │ heightFactor: 1.0
+             ╎                                                     │
+             ╎                                                     └─child: RenderSemanticsAnnotations#459da relayoutBoundary=up1
+             ╎                                                       │ creator: Semantics ← Icon ← IconTheme ← Builder ← Center ←
+             ╎                                                       │   Padding ← Container ← IconTheme ← Builder ← Listener ←
+             ╎                                                       │   _GestureSemantics ← RawGestureDetector ← ⋯
+             ╎                                                       │ parentData: offset=Offset(16.0, 16.0) (can use size)
+             ╎                                                       │ constraints: BoxConstraints(0.0<=w<=56.0, 0.0<=h<=56.0)
+             ╎                                                       │ size: Size(24.0, 24.0)
+             ╎                                                       │
+             ╎                                                       └─child: RenderExcludeSemantics#da6d7 relayoutBoundary=up2
+             ╎                                                         │ creator: ExcludeSemantics ← Semantics ← Icon ← IconTheme ←
+             ╎                                                         │   Builder ← Center ← Padding ← Container ← IconTheme ← Builder ←
+             ╎                                                         │   Listener ← _GestureSemantics ← ⋯
+             ╎                                                         │ parentData: <none> (can use size)
+             ╎                                                         │ constraints: BoxConstraints(0.0<=w<=56.0, 0.0<=h<=56.0)
+             ╎                                                         │ size: Size(24.0, 24.0)
+             ╎                                                         │ excluding: true
+             ╎                                                         │
+             ╎                                                         └─child: RenderConstrainedBox#dd821 relayoutBoundary=up3
+             ╎                                                           │ creator: SizedBox ← ExcludeSemantics ← Semantics ← Icon ←
+             ╎                                                           │   IconTheme ← Builder ← Center ← Padding ← Container ← IconTheme
+             ╎                                                           │   ← Builder ← Listener ← ⋯
+             ╎                                                           │ parentData: <none> (can use size)
+             ╎                                                           │ constraints: BoxConstraints(0.0<=w<=56.0, 0.0<=h<=56.0)
+             ╎                                                           │ size: Size(24.0, 24.0)
+             ╎                                                           │ additionalConstraints: BoxConstraints(w=24.0, h=24.0)
+             ╎                                                           │
+             ╎                                                           └─child: RenderPositionedBox#b8a42
+             ╎                                                             │ creator: Center ← SizedBox ← ExcludeSemantics ← Semantics ← Icon
+             ╎                                                             │   ← IconTheme ← Builder ← Center ← Padding ← Container ←
+             ╎                                                             │   IconTheme ← Builder ← ⋯
+             ╎                                                             │ parentData: <none> (can use size)
+             ╎                                                             │ constraints: BoxConstraints(w=24.0, h=24.0)
+             ╎                                                             │ size: Size(24.0, 24.0)
+             ╎                                                             │ alignment: center
+             ╎                                                             │ textDirection: ltr
+             ╎                                                             │ widthFactor: expand
+             ╎                                                             │ heightFactor: expand
+             ╎                                                             │
+             ╎                                                             └─child: RenderParagraph#5e22f relayoutBoundary=up1
+             ╎                                                               │ creator: RichText ← Center ← SizedBox ← ExcludeSemantics ←
+             ╎                                                               │   Semantics ← Icon ← IconTheme ← Builder ← Center ← Padding ←
+             ╎                                                               │   Container ← IconTheme ← ⋯
+             ╎                                                               │ parentData: offset=Offset(0.0, 0.0) (can use size)
+             ╎                                                               │ constraints: BoxConstraints(0.0<=w<=24.0, 0.0<=h<=24.0)
+             ╎                                                               │ size: Size(24.0, 24.0)
+             ╎                                                               │ textAlign: start
+             ╎                                                               │ textDirection: ltr
+             ╎                                                               │ softWrap: wrapping at box width
+             ╎                                                               │ overflow: visible
+             ╎                                                               │ locale: en_US
+             ╎                                                               │ maxLines: unlimited
+             ╎                                                               ╘═╦══ text ═══
+             ╎                                                                 ║ TextSpan:
+             ╎                                                                 ║   inherit: false
+             ╎                                                                 ║   color: Color(0xffffffff)
+             ╎                                                                 ║   family: MaterialIcons
+             ╎                                                                 ║   size: 24.0
+             ╎                                                                 ║   ""
+             ╎                                                                 ╚═══════════
+             └╌offstage 1: RenderOffstage#a23ad
+               │ needs compositing
+               │ creator: Offstage ← _ModalScopeStatus ←
+               │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#c4bd5]
+               │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#c0b0c] ←
+               │   TickerMode ← _Theatre ←
+               │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+               │   Semantics ← FocusScope ← AbsorbPointer ← Listener ← ⋯
+               │ parentData: not positioned; offset=Offset(0.0, 0.0) (can use
+               │   size)
+               │ constraints: BoxConstraints(w=411.4, h=683.4)
+               │ size: Size(411.4, 683.4)
+               │ offstage: false
+               │
+               └─child: RenderSemanticsAnnotations#11ceb
+                 │ needs compositing
+                 │ creator: Semantics ← FocusScope ← PageStorage ← Offstage ←
+                 │   _ModalScopeStatus ←
+                 │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#c4bd5]
+                 │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#c0b0c] ←
+                 │   TickerMode ← _Theatre ←
+                 │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← _FocusMarker ←
+                 │   Semantics ← ⋯
+                 │ parentData: <none> (can use size)
+                 │ constraints: BoxConstraints(w=411.4, h=683.4)
+                 │ size: Size(411.4, 683.4)
+                 │
+                 └─child: RenderRepaintBoundary#6ebdd
+                   │ needs compositing
+                   │ creator: RepaintBoundary ← _FocusMarker ← Semantics ← FocusScope
+                   │   ← PageStorage ← Offstage ← _ModalScopeStatus ←
+                   │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#c4bd5]
+                   │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#c0b0c] ←
+                   │   TickerMode ← _Theatre ←
+                   │   Overlay-[LabeledGlobalKey<OverlayState>#98d96] ← ⋯
+                   │ parentData: <none> (can use size)
+                   │ constraints: BoxConstraints(w=411.4, h=683.4)
+                   │ layer: OffsetLayer#57f7e DETACHED
+                   │ size: Size(411.4, 683.4)
+                   │ metrics: 66.7% useful (1 bad vs 2 good)
+                   │ diagnosis: insufficient data to draw conclusion (less than five
+                   │   repaints)
+                   │
+                   └─child: RenderFractionalTranslation#9615a
+                     │ needs compositing
+                     │ creator: FractionalTranslation ← SlideTransition ←
+                     │   AnimatedBuilder ← RepaintBoundary ← _FocusMarker ← Semantics ←
+                     │   FocusScope ← PageStorage ← Offstage ← _ModalScopeStatus ←
+                     │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#c4bd5]
+                     │   ← _OverlayEntry-[LabeledGlobalKey<_OverlayEntryState>#c0b0c] ←
+                     │   ⋯
+                     │ parentData: <none> (can use size)
+                     │ constraints: BoxConstraints(w=411.4, h=683.4)
+                     │ size: Size(411.4, 683.4)
+                     │ translation: Offset(0.0, 0.0)
+                     │ transformHitTests: true
+                     │
+                     └─child: RenderIgnorePointer#38d1e
+                       │ needs compositing
+                       │ creator: IgnorePointer ← FractionalTranslation ← SlideTransition
+                       │   ← AnimatedBuilder ← RepaintBoundary ← _FocusMarker ← Semantics
+                       │   ← FocusScope ← PageStorage ← Offstage ← _ModalScopeStatus ←
+                       │   _ModalScope<dynamic>-[LabeledGlobalKey<_ModalScopeState<dynamic>>#c4bd5]
+                       │   ← ⋯
+                       │ parentData: <none> (can use size)
+                       │ constraints: BoxConstraints(w=411.4, h=683.4)
+                       │ size: Size(411.4, 683.4)
+                       │ ignoring: false
+                       │ ignoringSemantics: implicitly false
+                       │
+                       └─child: RenderRepaintBoundary#d3649
+                         │ needs compositing
+                         │ creator: RepaintBoundary-[GlobalKey#8ae19] ← IgnorePointer ←
+                         │   FractionalTranslation ← SlideTransition ← AnimatedBuilder ←
+                         │   RepaintBoundary ← _FocusMarker ← Semantics ← FocusScope ←
+                         │   PageStorage ← Offstage ← _ModalScopeStatus ← ⋯
+                         │ parentData: <none> (can use size)
+                         │ constraints: BoxConstraints(w=411.4, h=683.4)
+                         │ layer: OffsetLayer#5ee97 DETACHED
+                         │ size: Size(411.4, 683.4)
+                         │ metrics: 75.0% useful (1 bad vs 3 good)
+                         │ diagnosis: insufficient data to draw conclusion (less than five
+                         │   repaints)
+                         │
+                         └─child: RenderPhysicalModel#8f680
+                           │ needs compositing
+                           │ creator: PhysicalModel ← AnimatedPhysicalModel ← Material ←
+                           │   PrimaryScrollController ← _ScaffoldScope ← Scaffold ← HomePage
+                           │   ← Builder ← RepaintBoundary-[GlobalKey#8ae19] ← IgnorePointer ←
+                           │   FractionalTranslation ← SlideTransition ← ⋯
+                           │ parentData: <none> (can use size)
+                           │ constraints: BoxConstraints(w=411.4, h=683.4)
+                           │ size: Size(411.4, 683.4)
+                           │ elevation: 0.0
+                           │ color: MaterialColor(primary value: Color(0xffffeb3b))
+                           │ shadowColor: MaterialColor(primary value: Color(0xffffeb3b))
+                           │ shape: BoxShape.rectangle
+                           │ borderRadius: BorderRadius.zero
+                           │
+                           └─child: _RenderInkFeatures#90926
+                             │ needs compositing
+                             │ creator: _InkFeatures-[GlobalKey#0e047 ink renderer] ←
+                             │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                             │   ← AnimatedPhysicalModel ← Material ← PrimaryScrollController ←
+                             │   _ScaffoldScope ← Scaffold ← HomePage ← Builder ←
+                             │   RepaintBoundary-[GlobalKey#8ae19] ← IgnorePointer ← ⋯
+                             │ parentData: <none> (can use size)
+                             │ constraints: BoxConstraints(w=411.4, h=683.4)
+                             │ size: Size(411.4, 683.4)
+                             │
+                             └─child: RenderCustomMultiChildLayoutBox#af1ae
+                               │ needs compositing
+                               │ creator: CustomMultiChildLayout ← AnimatedBuilder ←
+                               │   DefaultTextStyle ← AnimatedDefaultTextStyle ←
+                               │   _InkFeatures-[GlobalKey#0e047 ink renderer] ←
+                               │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                               │   ← AnimatedPhysicalModel ← Material ← PrimaryScrollController ←
+                               │   _ScaffoldScope ← Scaffold ← ⋯
+                               │ parentData: <none> (can use size)
+                               │ constraints: BoxConstraints(w=411.4, h=683.4)
+                               │ size: Size(411.4, 683.4)
+                               │
+                               ├─child 1: RenderPositionedBox#259a5 relayoutBoundary=up1
+                               │ │ creator: Center ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
+                               │ │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+                               │ │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#0e047 ink
+                               │ │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+                               │ │   PhysicalModel ← AnimatedPhysicalModel ← Material ← ⋯
+                               │ │ parentData: offset=Offset(0.0, 80.0); id=_ScaffoldSlot.body (can
+                               │ │   use size)
+                               │ │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=603.4)
+                               │ │ size: Size(411.4, 603.4)
+                               │ │ alignment: center
+                               │ │ textDirection: ltr
+                               │ │ widthFactor: expand
+                               │ │ heightFactor: expand
+                               │ │
+                               │ └─child: RenderParagraph#6ea33 relayoutBoundary=up2
+                               │   │ creator: RichText ← Text ← Center ← MediaQuery ←
+                               │   │   LayoutId-[<_ScaffoldSlot.body>] ← CustomMultiChildLayout ←
+                               │   │   AnimatedBuilder ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+                               │   │   _InkFeatures-[GlobalKey#0e047 ink renderer] ←
+                               │   │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                               │   │   ← ⋯
+                               │   │ parentData: offset=Offset(186.7, 293.7) (can use size)
+                               │   │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=603.4)
+                               │   │ size: Size(38.0, 16.0)
+                               │   │ textAlign: start
+                               │   │ textDirection: ltr
+                               │   │ softWrap: wrapping at box width
+                               │   │ overflow: clip
+                               │   │ locale: en_US
+                               │   │ maxLines: unlimited
+                               │   ╘═╦══ text ═══
+                               │     ║ TextSpan:
+                               │     ║   debugLabel: (englishLike body1 2014).merge(blackMountainView
+                               │     ║     body1)
+                               │     ║   inherit: false
+                               │     ║   color: Color(0xdd000000)
+                               │     ║   family: Roboto
+                               │     ║   size: 14.0
+                               │     ║   weight: 400
+                               │     ║   baseline: alphabetic
+                               │     ║   decoration: TextDecoration.none
+                               │     ║   "Home"
+                               │     ╚═══════════
+                               ├─child 2: RenderConstrainedBox#78acb relayoutBoundary=up1
+                               │ │ needs compositing
+                               │ │ creator: ConstrainedBox ← MediaQuery ←
+                               │ │   LayoutId-[<_ScaffoldSlot.appBar>] ← CustomMultiChildLayout ←
+                               │ │   AnimatedBuilder ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+                               │ │   _InkFeatures-[GlobalKey#0e047 ink renderer] ←
+                               │ │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                               │ │   ← AnimatedPhysicalModel ← Material ← ⋯
+                               │ │ parentData: offset=Offset(0.0, 0.0); id=_ScaffoldSlot.appBar (can
+                               │ │   use size)
+                               │ │ constraints: BoxConstraints(w=411.4, 0.0<=h<=683.4)
+                               │ │ size: Size(411.4, 80.0)
+                               │ │ additionalConstraints: BoxConstraints(0.0<=w<=Infinity,
+                               │ │   0.0<=h<=80.0)
+                               │ │
+                               │ └─child: RenderSemanticsAnnotations#538c3 relayoutBoundary=up2
+                               │   │ needs compositing
+                               │   │ creator: Semantics ← AppBar ← FlexibleSpaceBarSettings ←
+                               │   │   ConstrainedBox ← MediaQuery ← LayoutId-[<_ScaffoldSlot.appBar>]
+                               │   │   ← CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+                               │   │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#0e047 ink
+                               │   │   renderer] ← NotificationListener<LayoutChangedNotification> ← ⋯
+                               │   │ parentData: <none> (can use size)
+                               │   │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+                               │   │ semantic boundary
+                               │   │ size: Size(411.4, 80.0)
+                               │   │
+                               │   └─child: RenderAnnotatedRegion<SystemUiOverlayStyle>#4036e relayoutBoundary=up3
+                               │     │ needs compositing
+                               │     │ creator: AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ←
+                               │     │   AppBar ← FlexibleSpaceBarSettings ← ConstrainedBox ← MediaQuery
+                               │     │   ← LayoutId-[<_ScaffoldSlot.appBar>] ← CustomMultiChildLayout ←
+                               │     │   AnimatedBuilder ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+                               │     │   _InkFeatures-[GlobalKey#0e047 ink renderer] ← ⋯
+                               │     │ parentData: <none> (can use size)
+                               │     │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+                               │     │ size: Size(411.4, 80.0)
+                               │     │
+                               │     └─child: RenderPhysicalModel#94f56 relayoutBoundary=up4
+                               │       │ needs compositing
+                               │       │ creator: PhysicalModel ← AnimatedPhysicalModel ← Material ←
+                               │       │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ←
+                               │       │   FlexibleSpaceBarSettings ← ConstrainedBox ← MediaQuery ←
+                               │       │   LayoutId-[<_ScaffoldSlot.appBar>] ← CustomMultiChildLayout ←
+                               │       │   AnimatedBuilder ← ⋯
+                               │       │ parentData: <none> (can use size)
+                               │       │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+                               │       │ size: Size(411.4, 80.0)
+                               │       │ elevation: 4.0
+                               │       │ color: MaterialColor(primary value: Color(0xfff44336))
+                               │       │ shadowColor: MaterialColor(primary value: Color(0xfff44336))
+                               │       │ shape: BoxShape.rectangle
+                               │       │ borderRadius: BorderRadius.zero
+                               │       │
+                               │       └─child: _RenderInkFeatures#8dcb1 relayoutBoundary=up5
+                               │         │ creator: _InkFeatures-[GlobalKey#19690 ink renderer] ←
+                               │         │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                               │         │   ← AnimatedPhysicalModel ← Material ←
+                               │         │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ←
+                               │         │   FlexibleSpaceBarSettings ← ConstrainedBox ← MediaQuery ←
+                               │         │   LayoutId-[<_ScaffoldSlot.appBar>] ← ⋯
+                               │         │ parentData: <none> (can use size)
+                               │         │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+                               │         │ size: Size(411.4, 80.0)
+                               │         │
+                               │         └─child: RenderSemanticsAnnotations#70c04 relayoutBoundary=up6
+                               │           │ creator: Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle
+                               │           │   ← _InkFeatures-[GlobalKey#19690 ink renderer] ←
+                               │           │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                               │           │   ← AnimatedPhysicalModel ← Material ←
+                               │           │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ←
+                               │           │   FlexibleSpaceBarSettings ← ⋯
+                               │           │ parentData: <none> (can use size)
+                               │           │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+                               │           │ size: Size(411.4, 80.0)
+                               │           │
+                               │           └─child: RenderPositionedBox#d0b08 relayoutBoundary=up7
+                               │             │ creator: Align ← Semantics ← DefaultTextStyle ←
+                               │             │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#19690 ink
+                               │             │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+                               │             │   PhysicalModel ← AnimatedPhysicalModel ← Material ←
+                               │             │   AnnotatedRegion<SystemUiOverlayStyle> ← Semantics ← AppBar ← ⋯
+                               │             │ parentData: <none> (can use size)
+                               │             │ constraints: BoxConstraints(w=411.4, 0.0<=h<=80.0)
+                               │             │ size: Size(411.4, 80.0)
+                               │             │ alignment: topCenter
+                               │             │ textDirection: ltr
+                               │             │ widthFactor: expand
+                               │             │ heightFactor: expand
+                               │             │
+                               │             └─child: RenderPadding#39fd3 relayoutBoundary=up8
+                               │               │ creator: Padding ← SafeArea ← Align ← Semantics ←
+                               │               │   DefaultTextStyle ← AnimatedDefaultTextStyle ←
+                               │               │   _InkFeatures-[GlobalKey#19690 ink renderer] ←
+                               │               │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                               │               │   ← AnimatedPhysicalModel ← Material ←
+                               │               │   AnnotatedRegion<SystemUiOverlayStyle> ← ⋯
+                               │               │ parentData: offset=Offset(0.0, 0.0) (can use size)
+                               │               │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=80.0)
+                               │               │ size: Size(411.4, 80.0)
+                               │               │ padding: EdgeInsets(0.0, 24.0, 0.0, 0.0)
+                               │               │ textDirection: ltr
+                               │               │
+                               │               └─child: RenderClipRect#3a9af relayoutBoundary=up9
+                               │                 │ creator: ClipRect ← MediaQuery ← Padding ← SafeArea ← Align ←
+                               │                 │   Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+                               │                 │   _InkFeatures-[GlobalKey#19690 ink renderer] ←
+                               │                 │   NotificationListener<LayoutChangedNotification> ← PhysicalModel
+                               │                 │   ← AnimatedPhysicalModel ← ⋯
+                               │                 │ parentData: offset=Offset(0.0, 24.0) (can use size)
+                               │                 │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=56.0)
+                               │                 │ size: Size(411.4, 56.0)
+                               │                 │
+                               │                 └─child: RenderCustomSingleChildLayoutBox#65ff3 relayoutBoundary=up10
+                               │                   │ creator: CustomSingleChildLayout ← ClipRect ← MediaQuery ←
+                               │                   │   Padding ← SafeArea ← Align ← Semantics ← DefaultTextStyle ←
+                               │                   │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#19690 ink
+                               │                   │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+                               │                   │   PhysicalModel ← ⋯
+                               │                   │ parentData: <none> (can use size)
+                               │                   │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=56.0)
+                               │                   │ size: Size(411.4, 56.0)
+                               │                   │
+                               │                   └─child: RenderCustomMultiChildLayoutBox#e0866 relayoutBoundary=up11
+                               │                     │ creator: CustomMultiChildLayout ← NavigationToolbar ←
+                               │                     │   DefaultTextStyle ← IconTheme ← Builder ←
+                               │                     │   CustomSingleChildLayout ← ClipRect ← MediaQuery ← Padding ←
+                               │                     │   SafeArea ← Align ← Semantics ← ⋯
+                               │                     │ parentData: offset=Offset(0.0, 0.0) (can use size)
+                               │                     │ constraints: BoxConstraints(0.0<=w<=411.4, h=56.0)
+                               │                     │ size: Size(411.4, 56.0)
+                               │                     │
+                               │                     └─child 1: RenderSemanticsAnnotations#64067 relayoutBoundary=up12
+                               │                       │ creator: Semantics ← DefaultTextStyle ←
+                               │                       │   LayoutId-[<_ToolbarSlot.middle>] ← CustomMultiChildLayout ←
+                               │                       │   NavigationToolbar ← DefaultTextStyle ← IconTheme ← Builder ←
+                               │                       │   CustomSingleChildLayout ← ClipRect ← MediaQuery ← Padding ← ⋯
+                               │                       │ parentData: offset=Offset(16.0, 16.5); id=_ToolbarSlot.middle
+                               │                       │   (can use size)
+                               │                       │ constraints: BoxConstraints(0.0<=w<=379.4, 0.0<=h<=56.0)
+                               │                       │ size: Size(54.0, 23.0)
+                               │                       │
+                               │                       └─child: RenderParagraph#61e48 relayoutBoundary=up13
+                               │                         │ creator: RichText ← Text ← Semantics ← DefaultTextStyle ←
+                               │                         │   LayoutId-[<_ToolbarSlot.middle>] ← CustomMultiChildLayout ←
+                               │                         │   NavigationToolbar ← DefaultTextStyle ← IconTheme ← Builder ←
+                               │                         │   CustomSingleChildLayout ← ClipRect ← ⋯
+                               │                         │ parentData: <none> (can use size)
+                               │                         │ constraints: BoxConstraints(0.0<=w<=379.4, 0.0<=h<=56.0)
+                               │                         │ size: Size(54.0, 23.0)
+                               │                         │ textAlign: start
+                               │                         │ textDirection: ltr
+                               │                         │ softWrap: no wrapping except at line break characters
+                               │                         │ overflow: ellipsis
+                               │                         │ locale: en_US
+                               │                         │ maxLines: unlimited
+                               │                         ╘═╦══ text ═══
+                               │                           ║ TextSpan:
+                               │                           ║   debugLabel: (englishLike title 2014).merge(whiteMountainView
+                               │                           ║     title)
+                               │                           ║   inherit: false
+                               │                           ║   color: Color(0xffffffff)
+                               │                           ║   family: Roboto
+                               │                           ║   size: 20.0
+                               │                           ║   weight: 500
+                               │                           ║   baseline: alphabetic
+                               │                           ║   decoration: TextDecoration.none
+                               │                           ║   "Home"
+                               │                           ╚═══════════
+                               └─child 3: RenderStack#94842 relayoutBoundary=up1
+                                 │ needs compositing
+                                 │ creator: Stack ← _FloatingActionButtonTransition ← MediaQuery ←
+                                 │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+                                 │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+                                 │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#0e047 ink
+                                 │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+                                 │   PhysicalModel ← AnimatedPhysicalModel ← ⋯
+                                 │ parentData: offset=Offset(339.4, 611.4);
+                                 │   id=_ScaffoldSlot.floatingActionButton (can use size)
+                                 │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                 │ size: Size(56.0, 56.0)
+                                 │ alignment: centerRight
+                                 │ textDirection: ltr
+                                 │ fit: loose
+                                 │ overflow: clip
+                                 │
+                                 └─child 1: RenderTransform#3bdde relayoutBoundary=up2
+                                   │ needs compositing
+                                   │ creator: Transform ← ScaleTransition ← Stack ←
+                                   │   _FloatingActionButtonTransition ← MediaQuery ←
+                                   │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+                                   │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+                                   │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#0e047 ink
+                                   │   renderer] ← NotificationListener<LayoutChangedNotification> ← ⋯
+                                   │ parentData: not positioned; offset=Offset(0.0, 0.0) (can use
+                                   │   size)
+                                   │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                   │ size: Size(56.0, 56.0)
+                                   │ transform matrix:
+                                   │   [0] 1.0,0.0,0.0,0.0
+                                   │   [1] 0.0,1.0,0.0,0.0
+                                   │   [2] 0.0,0.0,1.0,0.0
+                                   │   [3] 0.0,0.0,0.0,1.0
+                                   │ origin: null
+                                   │ alignment: center
+                                   │ textDirection: ltr
+                                   │ transformHitTests: true
+                                   │
+                                   └─child: RenderTransform#9e5c5 relayoutBoundary=up3
+                                     │ needs compositing
+                                     │ creator: Transform ← RotationTransition ← Transform ←
+                                     │   ScaleTransition ← Stack ← _FloatingActionButtonTransition ←
+                                     │   MediaQuery ← LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+                                     │   CustomMultiChildLayout ← AnimatedBuilder ← DefaultTextStyle ←
+                                     │   AnimatedDefaultTextStyle ← ⋯
+                                     │ parentData: <none> (can use size)
+                                     │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                     │ size: Size(56.0, 56.0)
+                                     │ transform matrix:
+                                     │   [0] 1.0,0.0,0.0,0.0
+                                     │   [1] -0.0,1.0,0.0,0.0
+                                     │   [2] 0.0,0.0,1.0,0.0
+                                     │   [3] 0.0,0.0,0.0,1.0
+                                     │ origin: null
+                                     │ alignment: center
+                                     │ textDirection: ltr
+                                     │ transformHitTests: true
+                                     │
+                                     └─child: RenderMergeSemantics#fd582 relayoutBoundary=up4
+                                       │ needs compositing
+                                       │ creator: MergeSemantics ← FloatingActionButton-[<'homePush'>] ←
+                                       │   Transform ← RotationTransition ← Transform ← ScaleTransition ←
+                                       │   Stack ← _FloatingActionButtonTransition ← MediaQuery ←
+                                       │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ←
+                                       │   CustomMultiChildLayout ← AnimatedBuilder ← ⋯
+                                       │ parentData: <none> (can use size)
+                                       │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                       │ semantic boundary
+                                       │ size: Size(56.0, 56.0)
+                                       │
+                                       └─child: RenderConstrainedBox#ef548 relayoutBoundary=up5
+                                         │ needs compositing
+                                         │ creator: SizedBox ← Hero ← MergeSemantics ←
+                                         │   FloatingActionButton-[<'homePush'>] ← Transform ←
+                                         │   RotationTransition ← Transform ← ScaleTransition ← Stack ←
+                                         │   _FloatingActionButtonTransition ← MediaQuery ←
+                                         │   LayoutId-[<_ScaffoldSlot.floatingActionButton>] ← ⋯
+                                         │ parentData: <none> (can use size)
+                                         │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                         │ size: Size(56.0, 56.0)
+                                         │ additionalConstraints: BoxConstraints(unconstrained)
+                                         │
+                                         └─child: RenderOffstage#7a2e3 relayoutBoundary=up6
+                                           │ needs compositing
+                                           │ creator: Offstage ← SizedBox ← Hero ← MergeSemantics ←
+                                           │   FloatingActionButton-[<'homePush'>] ← Transform ←
+                                           │   RotationTransition ← Transform ← ScaleTransition ← Stack ←
+                                           │   _FloatingActionButtonTransition ← MediaQuery ← ⋯
+                                           │ parentData: <none> (can use size)
+                                           │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                           │ size: Size(56.0, 56.0)
+                                           │ offstage: false
+                                           │
+                                           └─child: RenderSemanticsAnnotations#9a8d9 relayoutBoundary=up7
+                                             │ needs compositing
+                                             │ creator: Semantics ← RawMaterialButton ←
+                                             │   KeyedSubtree-[GlobalKey#4b446] ← TickerMode ← Offstage ←
+                                             │   SizedBox ← Hero ← MergeSemantics ←
+                                             │   FloatingActionButton-[<'homePush'>] ← Transform ←
+                                             │   RotationTransition ← Transform ← ⋯
+                                             │ parentData: <none> (can use size)
+                                             │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                             │ semantic boundary
+                                             │ size: Size(56.0, 56.0)
+                                             │
+                                             └─child: _RenderInputPadding#5808e relayoutBoundary=up8
+                                               │ needs compositing
+                                               │ creator: _InputPadding ← Semantics ← RawMaterialButton ←
+                                               │   KeyedSubtree-[GlobalKey#4b446] ← TickerMode ← Offstage ←
+                                               │   SizedBox ← Hero ← MergeSemantics ←
+                                               │   FloatingActionButton-[<'homePush'>] ← Transform ←
+                                               │   RotationTransition ← ⋯
+                                               │ parentData: <none> (can use size)
+                                               │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                               │ size: Size(56.0, 56.0)
+                                               │
+                                               └─child: RenderConstrainedBox#b3690 relayoutBoundary=up9
+                                                 │ needs compositing
+                                                 │ creator: ConstrainedBox ← _FocusMarker ← Focus ← _InputPadding ←
+                                                 │   Semantics ← RawMaterialButton ← KeyedSubtree-[GlobalKey#4b446]
+                                                 │   ← TickerMode ← Offstage ← SizedBox ← Hero ← MergeSemantics ← ⋯
+                                                 │ parentData: offset=Offset(0.0, 0.0) (can use size)
+                                                 │ constraints: BoxConstraints(0.0<=w<=411.4, 0.0<=h<=683.4)
+                                                 │ size: Size(56.0, 56.0)
+                                                 │ additionalConstraints: BoxConstraints(w=56.0, h=56.0)
+                                                 │
+                                                 └─child: RenderPhysicalShape#370ab
+                                                   │ needs compositing
+                                                   │ creator: PhysicalShape ← _MaterialInterior ← Material ←
+                                                   │   ConstrainedBox ← _FocusMarker ← Focus ← _InputPadding ←
+                                                   │   Semantics ← RawMaterialButton ← KeyedSubtree-[GlobalKey#4b446]
+                                                   │   ← TickerMode ← Offstage ← ⋯
+                                                   │ parentData: <none> (can use size)
+                                                   │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                   │ size: Size(56.0, 56.0)
+                                                   │ elevation: 6.0
+                                                   │ color: Color(0xff2196f3)
+                                                   │ shadowColor: Color(0xff2196f3)
+                                                   │ clipper: ShapeBorderClipper
+                                                   │
+                                                   └─child: RenderCustomPaint#718fc
+                                                     │ creator: CustomPaint ← _ShapeBorderPaint ← PhysicalShape ←
+                                                     │   _MaterialInterior ← Material ← ConstrainedBox ← _FocusMarker ←
+                                                     │   Focus ← _InputPadding ← Semantics ← RawMaterialButton ←
+                                                     │   KeyedSubtree-[GlobalKey#4b446] ← ⋯
+                                                     │ parentData: <none> (can use size)
+                                                     │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                     │ size: Size(56.0, 56.0)
+                                                     │
+                                                     └─child: _RenderInkFeatures#f5639
+                                                       │ creator: _InkFeatures-[GlobalKey#ed1e0 ink renderer] ←
+                                                       │   NotificationListener<LayoutChangedNotification> ← CustomPaint ←
+                                                       │   _ShapeBorderPaint ← PhysicalShape ← _MaterialInterior ←
+                                                       │   Material ← ConstrainedBox ← _FocusMarker ← Focus ←
+                                                       │   _InputPadding ← Semantics ← ⋯
+                                                       │ parentData: <none> (can use size)
+                                                       │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                       │ size: Size(56.0, 56.0)
+                                                       │
+                                                       └─child: RenderPointerListener#b35ac
+                                                         │ creator: Listener ← InkWell ← DefaultTextStyle ←
+                                                         │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#ed1e0 ink
+                                                         │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+                                                         │   CustomPaint ← _ShapeBorderPaint ← PhysicalShape ←
+                                                         │   _MaterialInterior ← Material ← ConstrainedBox ← ⋯
+                                                         │ parentData: <none> (can use size)
+                                                         │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                         │ size: Size(56.0, 56.0)
+                                                         │ behavior: translucent
+                                                         │ listeners: enter, exit
+                                                         │
+                                                         └─child: RenderSemanticsGestureHandler#5b079
+                                                           │ creator: _GestureSemantics ← RawGestureDetector ← GestureDetector
+                                                           │   ← Listener ← InkWell ← DefaultTextStyle ←
+                                                           │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#ed1e0 ink
+                                                           │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+                                                           │   CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← ⋯
+                                                           │ parentData: <none> (can use size)
+                                                           │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                           │ size: Size(56.0, 56.0)
+                                                           │ gestures: tap
+                                                           │
+                                                           └─child: RenderPointerListener#38088
+                                                             │ creator: Listener ← _GestureSemantics ← RawGestureDetector ←
+                                                             │   GestureDetector ← Listener ← InkWell ← DefaultTextStyle ←
+                                                             │   AnimatedDefaultTextStyle ← _InkFeatures-[GlobalKey#ed1e0 ink
+                                                             │   renderer] ← NotificationListener<LayoutChangedNotification> ←
+                                                             │   CustomPaint ← _ShapeBorderPaint ← ⋯
+                                                             │ parentData: <none> (can use size)
+                                                             │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                             │ size: Size(56.0, 56.0)
+                                                             │ behavior: opaque
+                                                             │ listeners: down
+                                                             │
+                                                             └─child: RenderPadding#0dabf
+                                                               │ creator: Padding ← Container ← IconTheme ← Builder ← Listener ←
+                                                               │   _GestureSemantics ← RawGestureDetector ← GestureDetector ←
+                                                               │   Listener ← InkWell ← DefaultTextStyle ←
+                                                               │   AnimatedDefaultTextStyle ← ⋯
+                                                               │ parentData: <none> (can use size)
+                                                               │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                               │ size: Size(56.0, 56.0)
+                                                               │ padding: EdgeInsets.zero
+                                                               │ textDirection: ltr
+                                                               │
+                                                               └─child: RenderPositionedBox#5751a
+                                                                 │ creator: Center ← Padding ← Container ← IconTheme ← Builder ←
+                                                                 │   Listener ← _GestureSemantics ← RawGestureDetector ←
+                                                                 │   GestureDetector ← Listener ← InkWell ← DefaultTextStyle ← ⋯
+                                                                 │ parentData: offset=Offset(0.0, 0.0) (can use size)
+                                                                 │ constraints: BoxConstraints(w=56.0, h=56.0)
+                                                                 │ size: Size(56.0, 56.0)
+                                                                 │ alignment: center
+                                                                 │ textDirection: ltr
+                                                                 │ widthFactor: 1.0
+                                                                 │ heightFactor: 1.0
+                                                                 │
+                                                                 └─child: RenderSemanticsAnnotations#df7b1 relayoutBoundary=up1
+                                                                   │ creator: Semantics ← Icon ← IconTheme ← Builder ← Center ←
+                                                                   │   Padding ← Container ← IconTheme ← Builder ← Listener ←
+                                                                   │   _GestureSemantics ← RawGestureDetector ← ⋯
+                                                                   │ parentData: offset=Offset(16.0, 16.0) (can use size)
+                                                                   │ constraints: BoxConstraints(0.0<=w<=56.0, 0.0<=h<=56.0)
+                                                                   │ size: Size(24.0, 24.0)
+                                                                   │
+                                                                   └─child: RenderExcludeSemantics#d8ec7 relayoutBoundary=up2
+                                                                     │ creator: ExcludeSemantics ← Semantics ← Icon ← IconTheme ←
+                                                                     │   Builder ← Center ← Padding ← Container ← IconTheme ← Builder ←
+                                                                     │   Listener ← _GestureSemantics ← ⋯
+                                                                     │ parentData: <none> (can use size)
+                                                                     │ constraints: BoxConstraints(0.0<=w<=56.0, 0.0<=h<=56.0)
+                                                                     │ size: Size(24.0, 24.0)
+                                                                     │ excluding: true
+                                                                     │
+                                                                     └─child: RenderConstrainedBox#ef877 relayoutBoundary=up3
+                                                                       │ creator: SizedBox ← ExcludeSemantics ← Semantics ← Icon ←
+                                                                       │   IconTheme ← Builder ← Center ← Padding ← Container ← IconTheme
+                                                                       │   ← Builder ← Listener ← ⋯
+                                                                       │ parentData: <none> (can use size)
+                                                                       │ constraints: BoxConstraints(0.0<=w<=56.0, 0.0<=h<=56.0)
+                                                                       │ size: Size(24.0, 24.0)
+                                                                       │ additionalConstraints: BoxConstraints(w=24.0, h=24.0)
+                                                                       │
+                                                                       └─child: RenderPositionedBox#c5cd2
+                                                                         │ creator: Center ← SizedBox ← ExcludeSemantics ← Semantics ← Icon
+                                                                         │   ← IconTheme ← Builder ← Center ← Padding ← Container ←
+                                                                         │   IconTheme ← Builder ← ⋯
+                                                                         │ parentData: <none> (can use size)
+                                                                         │ constraints: BoxConstraints(w=24.0, h=24.0)
+                                                                         │ size: Size(24.0, 24.0)
+                                                                         │ alignment: center
+                                                                         │ textDirection: ltr
+                                                                         │ widthFactor: expand
+                                                                         │ heightFactor: expand
+                                                                         │
+                                                                         └─child: RenderParagraph#e95c2 relayoutBoundary=up1
+                                                                           │ creator: RichText ← Center ← SizedBox ← ExcludeSemantics ←
+                                                                           │   Semantics ← Icon ← IconTheme ← Builder ← Center ← Padding ←
+                                                                           │   Container ← IconTheme ← ⋯
+                                                                           │ parentData: offset=Offset(0.0, 0.0) (can use size)
+                                                                           │ constraints: BoxConstraints(0.0<=w<=24.0, 0.0<=h<=24.0)
+                                                                           │ size: Size(24.0, 24.0)
+                                                                           │ textAlign: start
+                                                                           │ textDirection: ltr
+                                                                           │ softWrap: wrapping at box width
+                                                                           │ overflow: visible
+                                                                           │ locale: en_US
+                                                                           │ maxLines: unlimited
+                                                                           ╘═╦══ text ═══
+                                                                             ║ TextSpan:
+                                                                             ║   inherit: false
+                                                                             ║   color: Color(0xffffffff)
+                                                                             ║   family: MaterialIcons
+                                                                             ║   size: 24.0
+                                                                             ║   ""
+                                                                             ╚═══════════

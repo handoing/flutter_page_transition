@@ -28,6 +28,7 @@ class _OtherPageState extends State<OtherPage> {
         child: Text(_text),
       ),
       floatingActionButton: FloatingActionButton(
+        key: Key('otherPush'),
         onPressed: _push,
         child: Icon(Icons.add),
       ),
