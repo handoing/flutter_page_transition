@@ -1,3 +1,7 @@
+## [0.1.2] - Update Description (2019.07.18)
+
+* update description to increase maintenance.
+
 ## [0.1.1] - Update README (2019.07.18)
 
 * update README.md.
