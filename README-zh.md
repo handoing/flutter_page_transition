@@ -2,7 +2,7 @@
 
 一个丰富、方便、易用的路由切换效果库。
 
-[![Version](https://img.shields.io/badge/version-0.1.2-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.1.3-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
 [README in English](README.md)
 
@@ -60,7 +60,7 @@ flutter_page_transition:
 
 ## Example
 
-使用 PageRouteBuilder Widget，在transitionsBuilder方法里返回新的Widget
+使用 PageRouteBuilder 组件，在 transitionsBuilder 方法里返回 effectMap 下指定类型的新组件，或者通过 Navigator push 指定的 PageTransition 组件
 ```dart
 initialRoute: 'Home',
 onGenerateRoute: (RouteSettings routeSettings){
