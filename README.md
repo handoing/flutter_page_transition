@@ -2,7 +2,10 @@
 
 A rich, convenient, easy-to-use flutter page transition package.
 
+[![Pub](https://img.shields.io/badge/pub-flutter_page_transition-blue.svg)](https://pub.dev/packages/flutter_page_transition)
 [![Version](https://img.shields.io/badge/version-0.1.5-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Language](https://img.shields.io/badge/language-dart-blue.svg)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 [README in Chinese](README-zh.md)
 
@@ -21,7 +24,7 @@ A rich, convenient, easy-to-use flutter page transition package.
 Add this to your package's pubspec.yaml file:
 ```yaml
 dependencies:
-  flutter_page_transition: ^0.1.5
+  flutter_page_transition: ^0.1.0
 ```
 You can also depend on this package stored in my repository:
 ```yaml
