@@ -1,3 +1,7 @@
+## [0.1.6] - Update README (2019.11.25)
+
+* update CHANGELOG.md.
+
 ## [0.1.5] - Update README (2019.11.25)
 
 * add rippleLeftDown|rippleRightDown|rippleMiddle.
