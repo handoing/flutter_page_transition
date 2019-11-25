@@ -2,7 +2,7 @@
 
 一个丰富、方便、易用的路由切换效果库。
 
-[![Version](https://img.shields.io/badge/version-0.1.4-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.1.5-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
 [README in English](README.md)
 
@@ -21,7 +21,7 @@
 pubspec.yaml中添加flutter_page_transition依赖：
 ```yaml
 dependencies:
-  flutter_page_transition: ^0.1.0
+  flutter_page_transition: ^0.1.5
 ```
 或者添加github仓库的依赖：
 ```yaml
@@ -53,6 +53,9 @@ flutter_page_transition:
 | slideZoomDown | ⬇️  |
 | rippleRightUp | ↖️ |
 | rippleLeftUp | ↗️  |
+| rippleLeftDown | ↘️  |
+| rippleRightDown | ↙️  |
+| rippleMiddle | 🎆  |
 | transferRight | ⬅️  |
 | transferUp | ⬆️  |
 | fadeIn | ❌  |

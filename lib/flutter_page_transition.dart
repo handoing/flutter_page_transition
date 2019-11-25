@@ -39,6 +39,9 @@ final Map effectMap = <PageTransitionType, void>{
 
   PageTransitionType.rippleRightUp: TransitionEffect.createRipple(origin: 'Right'),
   PageTransitionType.rippleLeftUp: TransitionEffect.createRipple(origin: 'Left'),
+  PageTransitionType.rippleLeftDown: TransitionEffect.createRipple(origin: 'LeftDown'),
+  PageTransitionType.rippleRightDown: TransitionEffect.createRipple(origin: 'RightDown'),
+  PageTransitionType.rippleMiddle: TransitionEffect.createRipple(origin: 'Middle'),
 };
 
 class PageTransition extends PageRouteBuilder {

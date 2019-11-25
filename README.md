@@ -2,7 +2,7 @@
 
 A rich, convenient, easy-to-use flutter page transition package.
 
-[![Version](https://img.shields.io/badge/version-0.1.4-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.1.5-blue.svg)](https://github.com/handoing/flutter_page_transition)
 
 [README in Chinese](README-zh.md)
 
@@ -21,7 +21,7 @@ A rich, convenient, easy-to-use flutter page transition package.
 Add this to your package's pubspec.yaml file:
 ```yaml
 dependencies:
-  flutter_page_transition: ^0.1.0
+  flutter_page_transition: ^0.1.5
 ```
 You can also depend on this package stored in my repository:
 ```yaml
@@ -53,6 +53,9 @@ You should then run `flutter packages upgrade`.
 | slideZoomDown | ⬇️  |
 | rippleRightUp | ↖️ |
 | rippleLeftUp | ↗️  |
+| rippleLeftDown | ↘️  |
+| rippleRightDown | ↙️  |
+| rippleMiddle | 🎆  |
 | transferRight | ⬅️  |
 | transferUp | ⬆️  |
 | fadeIn | ❌  |

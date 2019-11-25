@@ -29,5 +29,8 @@ enum PageTransitionType {
 
   rippleRightUp,
   rippleLeftUp,
+  rippleLeftDown,
+  rippleRightDown,
+  rippleMiddle,
 
 }

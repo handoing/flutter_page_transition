@@ -13,6 +13,7 @@ class RippleClipper extends CustomClipper<Path> {
       'Right': Offset(size.width, size.height),
       'LeftDown': Offset(0, 0),
       'RightDown': Offset(size.width, 0),
+      'Middle': Offset(size.width * .5, size.height * .5),
     };
     Path path = Path();
     double radius = sqrt(pow(size.width, 2) + pow(size.height, 2));
