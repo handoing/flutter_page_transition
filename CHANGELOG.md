@@ -1,6 +1,6 @@
 ## [0.1.6] - Update README (2019.11.25)
 
-* update CHANGELOG.md.
+* update README.md.
 
 ## [0.1.5] - Update README (2019.11.25)
 
