@@ -3,7 +3,7 @@
 A rich, convenient, easy-to-use flutter page transition package.
 
 [![Pub](https://img.shields.io/badge/pub-flutter_page_transition-blue.svg)](https://pub.dev/packages/flutter_page_transition)
-[![Version](https://img.shields.io/badge/version-0.1.5-blue.svg)](https://github.com/handoing/flutter_page_transition)
+[![Version](https://img.shields.io/badge/version-0.1.6-blue.svg)](https://github.com/handoing/flutter_page_transition)
 [![Language](https://img.shields.io/badge/language-dart-blue.svg)](https://dart.dev/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
