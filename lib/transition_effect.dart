@@ -1,8 +1,13 @@
-import 'package:flutter/material.dart';
 import 'dart:math';
 
+import 'package:flutter/material.dart';
+
 class RippleClipper extends CustomClipper<Path> {
-  RippleClipper({this.origin, this.progress});
+  RippleClipper({
+    required this.origin,
+    required this.progress,
+  });
+
   final String origin;
   final double progress;
 
@@ -26,7 +31,7 @@ class RippleClipper extends CustomClipper<Path> {
 }
 
 class TransitionEffect {
-  Function _customEffect;
+  late Function _customEffect;
 
   TransitionEffect() {
     _customEffect = (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
@@ -36,35 +41,45 @@ class TransitionEffect {
 
   get customEffect => _customEffect;
 
-  createCustomEffect({Function handle}) {
+  createCustomEffect({required Function handle}) {
     _customEffect = handle;
   }
 
   static createFadeIn() {
-    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new FadeTransition(opacity: animation, child: child);
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) =>
+        FadeTransition(opacity: animation, child: child);
   }
 
-  static createTransfer({Tween animationTween, Tween secondaryAnimationTween, Tween animationScaleTween, Tween secondaryAnimationScaleTween}) {
+  static createTransfer(
+      {required Tween<Offset> animationTween,
+      required Tween<Offset> secondaryAnimationTween,
+      required Tween<double> animationScaleTween,
+      required Tween<double> secondaryAnimationScaleTween}) {
     return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
       // 进入动效
-      Widget secondaryPage = new SlideTransition(
-        position: secondaryAnimationTween.animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.3, 0.7, curve: curve))),
-        child: new ScaleTransition(
-          scale: secondaryAnimationScaleTween.animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.0, 0.3, curve: curve))),
-          child: new ScaleTransition(
-            scale: secondaryAnimationScaleTween.animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.7, 1.0, curve: curve))),
+      Widget secondaryPage = SlideTransition(
+        position: secondaryAnimationTween
+            .animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.3, 0.7, curve: curve))),
+        child: ScaleTransition(
+          scale: secondaryAnimationScaleTween
+              .animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.0, 0.3, curve: curve))),
+          child: ScaleTransition(
+            scale: secondaryAnimationScaleTween
+                .animate(CurvedAnimation(parent: secondaryAnimation, curve: Interval(0.7, 1.0, curve: curve))),
             child: child,
           ),
         ),
       );
 
       // 离开动效
-      return new SlideTransition(
+      return SlideTransition(
         position: animationTween.animate(CurvedAnimation(parent: animation, curve: Interval(0.3, 0.7, curve: curve))),
-        child: new ScaleTransition(
-          scale: animationScaleTween.animate(CurvedAnimation(parent: animation, curve: Interval(0.0, 0.3, curve: curve))),
-          child: new ScaleTransition(
-            scale: animationScaleTween.animate(CurvedAnimation(parent: animation, curve: Interval(0.7, 1.0, curve: curve))),
+        child: ScaleTransition(
+          scale:
+              animationScaleTween.animate(CurvedAnimation(parent: animation, curve: Interval(0.0, 0.3, curve: curve))),
+          child: ScaleTransition(
+            scale: animationScaleTween
+                .animate(CurvedAnimation(parent: animation, curve: Interval(0.7, 1.0, curve: curve))),
             child: secondaryPage,
           ),
         ),
@@ -72,38 +87,40 @@ class TransitionEffect {
     };
   }
 
-  static createSlideIn(Tween tween) {
-    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new SlideTransition(
-      position: tween.animate(CurvedAnimation(parent: animation, curve: curve)),
-      child: child,
-    );
+  static createSlideIn(Tween<Offset> tween) {
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) =>
+        SlideTransition(
+          position: tween.animate(CurvedAnimation(parent: animation, curve: curve)),
+          child: child,
+        );
   }
 
-  static createSlide({Tween animationTween, Tween secondaryAnimationTween}) {
-    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new SlideTransition(
-      position: animationTween.animate(animation),
-      child: new SlideTransition(
-        position: secondaryAnimationTween.animate(secondaryAnimation),
-        child: child,
-      ),
-    );
+  static createSlide({required Tween<Offset> animationTween, required Tween<Offset> secondaryAnimationTween}) {
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) =>
+        SlideTransition(
+          position: animationTween.animate(animation),
+          child: SlideTransition(
+            position: secondaryAnimationTween.animate(secondaryAnimation),
+            child: child,
+          ),
+        );
   }
 
-  static createZoomSlide({Tween animationTween, Tween secondaryAnimationTween}) {
-    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new SlideTransition(
-      position: animationTween.animate(animation),
-      child: new ScaleTransition(
-        scale: secondaryAnimationTween.animate(secondaryAnimation),
-        child: child,
-      ),
-    );
+  static createZoomSlide({required Tween<Offset> positionAnimationTween, required Tween<double> scaleAnimationTween}) {
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) =>
+        SlideTransition(
+          position: positionAnimationTween.animate(animation),
+          child: ScaleTransition(
+            scale: scaleAnimationTween.animate(secondaryAnimation),
+            child: child,
+          ),
+        );
   }
 
-  static createRipple({String origin}) {
-    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => new ClipPath(
-      clipper: RippleClipper(origin: origin, progress: animation.value),
-      child: child,
-    );
+  static createRipple({required String origin}) {
+    return (Curve curve, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) => ClipPath(
+          clipper: RippleClipper(origin: origin, progress: animation.value),
+          child: child,
+        );
   }
-
 }
