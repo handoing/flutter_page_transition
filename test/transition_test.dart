@@ -3,9 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_page_transition/flutter_page_transition.dart';
 
 void main() {
-
   testWidgets('Create route and push other page', (WidgetTester tester) async {
-
     await tester.pumpWidget(MyApp());
 
     expect(find.text('Home'), findsOneWidget);
@@ -15,14 +13,13 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Other'), findsOneWidget);
-
   });
 }
 
 class HomePage extends StatelessWidget {
   static const String tag = 'home-page';
 
-  HomePage({Key key}) : super(key: key);
+  HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +45,7 @@ class HomePage extends StatelessWidget {
 class OtherPage extends StatelessWidget {
   static const String tag = 'other-page';
 
-  OtherPage({Key key}) : super(key: key);
+  OtherPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -72,7 +69,7 @@ class OtherPage extends StatelessWidget {
 }
 
 class MyApp extends StatelessWidget {
-  MyApp({Key key}) : super(key: key);
+  MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -82,26 +79,23 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         initialRoute: HomePage.tag,
-        onGenerateRoute: (RouteSettings routeSettings){
+        onGenerateRoute: (RouteSettings routeSettings) {
           return new PageRouteBuilder<dynamic>(
               settings: routeSettings,
               pageBuilder: (BuildContext context, Animation<double> animation, Animation<double> secondaryAnimation) {
-                switch (routeSettings.name){
+                switch (routeSettings.name) {
                   case HomePage.tag:
                     return HomePage();
                   case OtherPage.tag:
                     return OtherPage();
                   default:
-                    return null;
+                    return HomePage();
                 }
               },
               transitionDuration: const Duration(milliseconds: 600),
-              transitionsBuilder: (BuildContext context, Animation<double> animation,
-                  Animation<double> secondaryAnimation, Widget child) {
+              transitionsBuilder: (BuildContext context, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
                 return effectMap[PageTransitionType.slideInLeft](Curves.linear, animation, secondaryAnimation, child);
-              }
-          );
-        }
-    );
+              });
+        });
   }
 }
